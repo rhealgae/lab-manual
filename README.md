@@ -4,6 +4,23 @@ It is a work in progress.
 
 To build the book, run `bash _build.sh` in the terminal.
 
+## Brainstorming
+
+Thoughts on the style guide
+
+### Needs
+
++ Instructions on project creation
+    + Specifically, what a student fellow would need to do
+    + Also a timeline with expectations
++ Visual style guide
+    + Includes fonts, color scheme, etc
++ Needs for including person profiles
+    + Profile image
+    + Other info on author pages
+    + Provide .RMarkdown template or just use a Google Form
+
+
 
 ---
 Original readme:
