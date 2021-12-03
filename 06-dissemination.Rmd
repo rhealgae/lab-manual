@@ -1,3 +1,112 @@
 # Dissemination of Lab Products {#diss}
 
-We create things. This is how they get shared with the world.
+We create things. This is how they get shared with the world. 
+
+## Openness {#openness}
+
+Firstly, we endeavour to do as much work as possible in public to encourage transparency, honesty, and to support open science.
+
+### FAIR Principles
+
+We strive to adhere to [FAIR Principles](https://www.go-fair.org/fair-principles/), meaning we aim to develop and provide digital assets that are **F**indable, **A**ccessible, **I**nteroperable, and **R**eusable using the FAIRification Framework:
+
+1. Metadata for Machines (M4M)
+1. FAIR Implementation Profile (FIP)
+1. FAIR Data Points (FDP) & FAIR Digital Objects (FDO)
+
+```{r, echo=FALSE,out.width="33%",fig.cap="FAIRification Framework",fig.show='hold',fig.align='center'}
+knitr::include_graphics(c("https://www.go-fair.org/wp-content/uploads/2020/07/icon_circle_M4M_text.png","https://www.go-fair.org/wp-content/uploads/2020/07/icon_circle_FIP_text.png", "https://www.go-fair.org/wp-content/uploads/2020/07/icon_circle_FDP_text.png"))
+``` 
+
+
+### Open Science Framework
+
+In this vein, this book is open source and our projects are, when feasible, registered and tracked using the [Open Science Framework](https://osf.io) supported by the [Data Cooperative](https://data.library.arizona.edu/data-management/services/open-science-framework-osf) through the University Libraries at the University of Arizona. The OSF "is a research collaboration platform that is freely available to all researchers. It allows for the management and sharing of research projects at all stages of research."
+
+Through the OSF and field-specific preprint servers (i.e., SocArXiv, EdArXiv, et cetera), all publications that can legally be provided publicly via these services will be. 
+
+Research fellows--faculty and student, alike--should create OSF profiles to allow for transparent and clear attribution.
+
+### ReData
+
+When applicable, we store data using the [The University of Arizona Research Data Repository (ReDATA)](https://data.library.arizona.edu/data-management/services/research-data-repository-redata) repository, also provided by the Data Cooperative, which
+
+> ...serves as the institutional repository for non-traditional scholarly outputs resulting from research activities by University of Arizona researchers. Depositing research materials (datasets, code, images, videos, etc.) associated with published articles and/or completed grants and research projects into ReDATA helps UA researchers ensure compliance with funder and journal data sharing policies as well as University data retention policies.
+
+Given the nature of the work done in the MA{VR}X Lab, some content (large video recordings, for example) may be stored elsewhere. Links to data will regardless be linked within OSF projects.
+
+
+## Writing
+
++ Markdown (specifically, Rmarkdown)
++ `papaja`
++ Zotero
++ Obsidian (for your notes)
+  + Use the Zotero -> Zotfile -> mdnotes -> Obsidian -> Rmarkdown pathway for an incredibly powerful and collaborative workflow.
+  
+The importance of writing about your ideas and work cannot be overstated. Take it seriously, do it often, and get others involved.
+
+## Publishing {#publishing}
+
+The MA{VR}X Lab is, at heart, a research entity devoted to *applied* research. 
+
+### Conferences {#conferences}
+
+You are encouraged to present research at conferences. The lab has a small budget to assist in students' research presentation.
+
+This is a list of conferences that those affiliated with the lab have attended, presented at, helped organize, or simply encourage knowing more about:
+
+...
+
+## Authorship
+
+To transparently and fairly maintain a record of contributions, the lab follows the [CRediT - Contributor Roles Taxonomy](https://casrai.org/credit/). These roles are as follows:
+
++ Conceptualization
++ Data curation
++ Formal Analysis
++ Funding acquisition
++ Investigation
++ Methodology
++ Project administration
++ Resources
++ Software
++ Supervision
++ Validation
++ Visualization
++ Writing – original draft
++ Writing – review & editing
+
+Including a [spreadsheet in your project directory](https://osf.io/wj3hb/) that keeps track of who is fulfilling which role is required. Note that some roles may not be applicable (a student working on a self-directed project likely could ignore the *Funding acquisition* role, for example).
+
+### Contribution
+
+What counts as a contribution? Keep in mind that the CRediT taxonomy above is not a checklist insofar as it is not binary; making some punctuation changes in a manuscript, while technically "editing," does not necessarily qualify you for the *Writing - review & editing* role. You should consider contributions to be *substantive* and *meaningful*. 
+
+To be considered an author on a publication, you should have:
+
++ designed one or more experiment,
++ wrote the initial draft for a major section,
++ wrote the entire paper, and/or
++ designed and carried out the analyses.
+
+This is not to say that not having been involved to this degree means your work goes unappreciated or unacknowledged. For example, to receive named recognition in the author note or acknowledgements section, depending on the type of publication, you might have:
+
++ helped to carry out data collection,
++ created a table or figure,
++ created or cleaned a data set,
++ engaged in media wrangling and editing, and/or
++ helped edit or proofread the manuscript.
+
+### Author Order^[This policy is, like much of this document, heavily influenced by @Minda_Nielsen_2018 to the extent that drawing attention to it again is warranted.]
+
+Author order is not arbitrary, nor is it necessarily simply a descending list based on effort, at least the first and last author positions, specifically. That is, when involving student researchers, the *first* author typically goes to the student that wrote the majority of the paper, while the *last* author is the faculty research advisor, principle investigator, or the lab director (if they provided guidance).
+
+Note that there is typically also a *corresponding author*, who is essentially the point-of-contact for the work. They are the shepherd for that particular project and are in charge of correspondence. This is typically the first or last author.
+
+Within the MA{VR}X Lab, there are generally three kinds of publication authorship considerations:
+
+1. If the director or a faculty research fellow designed the experiment/project and was responsible for most of the authoring, they will be first and corresponding author.
+1. If a student researcher assisted in *some* the research (by carrying out some of the experimentation, for example) under the supervision of the director or a faculty research fellow but the student was not responsible for the research design and/or writing most of the paper, the same applies from #1.
+1. If a student researcher was primarily/entirely responsible for designing and conducting research, and wrote most of the paper, all under the supervision of the director or a faculty research fellow, the student researcher will be first author and the director or faculty research fellow will be last and corresponding author.
+1. Authorship with graduate students is usually decided on a one-by-one project basis. Discuss this with your supervisor.

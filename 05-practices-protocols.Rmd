@@ -1,4 +1,21 @@
 # Practices and Protocols {#protocols}
 
-We deal with a lot of disparate technologies, fields, and methodologies. Having clear and available policies, practices, and protocols is absolutely essential.
+We deal with disparate technologies, fields, and methodologies. Having clear and available policies, practices, and protocols is absolutely essential.
 
+## Documentation and Manuscripts {#docs-and-mans}
+
+### File Formats {#fileformats}
+
+Along with the \@ref(openness) we strive for when desseminating work via the lab, open formats should also be used when possible.
+
+Documents: markdown (Rmarkdown) or RTF  
+Images: JPEG-2000 or TIFF  
+Video: MP4
+
+### Documenting and Record Keeping {#documenting}
+
+Projects should be housed in the lab's OSF project but the actual work done in these projects--writing, code, et cetera--should go in a GitHub repository within the lab's organization. That repository can then be linked to the OSF sub-project. 
+
+Having a well-written and organized `README` file in your repository is absolutely essential. To conform with [UA Research Data Repository Policies](https://data.library.arizona.edu/data-management/best-practices/data-documentation-readme-metadata) (and to have a consistent organization), you should at least start with the [README_template.txt](https://osf.io/sj8xv/) they provide. You are also encouraged to maintain a step-by-step process that describes your project environment, how to run any cleaning scripts (if applicable), and how to reproduce the manuscript/slide deck/et cetera. [software_in_research_survey_2014/README.md](https://github.com/softwaresaved/software_in_research_survey_2014/blob/1.0/README.md) is a good example of this.
+
+*Protip*: use GitHub's `Release` function to keep track of substantive updates to a project by keeping track of release notes and next steps. This will also help spin up a new collaborator should someone join your project.

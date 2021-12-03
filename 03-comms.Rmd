@@ -1,3 +1,19 @@
 # Communications {#comms}
 
 Ways we communicate and collaborate in the lab.
+
+## Email {#email}
+
+The lab has its own email address: `MAVRX-Lab@arizona.edu` used for external communication. The director monitors this.
+
+## Discord {#discord}
+
+For virtually all lab-related chatting, announcements, and so on, we have a lab Discord server.
+
+## Social Media {#social}
+
+The lab's social media presence is generally restricted to Twitter and YouTube. Research assistants are welcome to tweet relevant content from the lab's account. The director can help you set this up. Content ideas for YouTube should be discussed at length with the director, as this also requires getting other administrative bodies involved.
+
+## Webpage {#webpage}
+
+We maintain a `blogdown` website for the lab at https://mavrxlab.org. This is where we share news items, project updates, upcoming talks, publication notifications, and so on. Specifically, Rmarkdown is used for this as it allows for native inclusion of data analyses and plain-text content creation. This book, for example, is a `bookdown` publication, also created using Rmarkdown.

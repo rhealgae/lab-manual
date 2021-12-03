@@ -1,20 +1,30 @@
 # People and Roles {#people}
 
-The people in the lab, their roles, and expectations.
+For detailed in formation on those working within/for the lab, visit the [MAVRX Lab's website](https://mavrxlab.org/people)^[If the content of the lab ever drifts into first-person, presume the speaking voice is the director.].
 
-## Director: Dr. Ryan Straight
+The expectations and roles within the lab revolved around the [openness](#openness) that we strive for, so clarity and frankness are valuable. It is important to remember that the lab is a resource, and the main role within the lab--that of the director--is to assist others in the utilization of that resource.
 
-...
+## Director
+
+The director of the lab is responsible for the day-to-day administration of the physical, digital, and logistical spaces. While responsibilities may be delegated--and often are--the director is ultimately responsible for ensuring the lab is functional and productive.
+
+Additionally, the director often serves in an advisory capacity for student research. This ranges from initial ideation to research project design to means of publication. That said, the director is not a "boss" of the lab; instead, they provide guidance at all levels, from the lab's research trajectory and agenda as a whole to advising on a project-by-project basis. 
 
 ## Faculty Research Fellows
 
-+ Dr. Diana Saldana
-+ Michael Galde
+...
 
-## Undergraduate Lab Assistants
+## Undergraduate Research Fellows
 
-+ Tyler Rhea
-+ Tony Vega
+Usually works directly under a faculty member or graduate student. The faculty need not be a member of the lab, but the director or a Faculty Research Fellow should be in the loop at all times.
 
++ Stipend?
++ Volunteer
++ For-credit (preceptorship or independent study)
++ Honors?
 
+## Lab Assistants
 
+Some students will be paid to "work in the lab," which could be anything from assisting in faculty research to lab maintenance to doing market research. While undergraduate research fellows may also be lab assistants, an overlap is not necessarily required or expected.
+
+Regardless of someone's role in the lab, there are expectations of professionalism, intellectual integrity, curiosity, and passion for praxis, the technology we explore, and the future we're creating.

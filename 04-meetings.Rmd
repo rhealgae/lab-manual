@@ -1,7 +1,11 @@
 # Meetings {#meetings}
 
-Some _significant_ applications are demonstrated in this chapter.
+We have meetings. We hold them via Zoom. We may hold them in Teamflow or Spatial.
 
 ## Types and frequency
 
++ ?
+
 ## Notes/Minutes
+
+Notes and minutes from meetings will--again, when appropriately public-facing--will be kept in the lab's OSF ecosystem.

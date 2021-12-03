@@ -42,3 +42,4 @@ knitr::include_graphics('images/by-nc-sa.png', dpi = NA)
 
 This manual should be considered a comprehensive living document aimed at presenting a unified understanding of how the lab works and what it should become.
 
+<!-- Chapter listing goes here once the're set. -->
