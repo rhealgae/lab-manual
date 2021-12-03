@@ -1,0 +1,20 @@
+# People and Roles {#people}
+
+The people in the lab, their roles, and expectations.
+
+## Director: Dr. Ryan Straight
+
+...
+
+## Faculty Research Fellows
+
++ Dr. Diana Saldana
++ Michael Galde
+
+## Undergraduate Lab Assistants
+
++ Tyler Rhea
++ Tony Vega
+
+
+

@@ -1,6 +1,6 @@
-book_filename: "mavx-lab-styleguide"
+book_filename: "mavrx-lab-manual"
 language:
   ui:
-    chapter_name: "Chapter "
+    chapter_name: "Section "
 delete_merged_file: true
 output_dir: "docs"

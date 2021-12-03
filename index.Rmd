@@ -1,36 +1,44 @@
 --- 
-title: "A Minimal Book Example"
-author: "Yihui Xie"
+title: "MA{VR}X Lab Manual"
+subtitle: "Or, A Virtual Researcher's Illustrated Primer"
+author: "Dr. Ryan Straight"
 date: "`r Sys.Date()`"
+
 site: bookdown::bookdown_site
 output: bookdown::gitbook
 documentclass: book
+
 bibliography: [book.bib, packages.bib]
 biblio-style: apalike
 link-citations: yes
-github-repo: rstudio/bookdown-demo
-description: "This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook."
+colorlinks: yes
+lot: yes
+lof: yes
+
+github-repo: mavrxlab/lab-manual
+description: "This is the lab manual for the Mixed Augmented ViRtual eXtended Reality Lab in the College of Applied Science and Technology at the University of Arizona."
 ---
 
-# Prerequisites
 
-This is a _sample_ book written in **Markdown**. You can use anything that Pandoc's Markdown supports, e.g., a math equation $a^2 + b^2 = c^2$.
+# Preface {-}
 
-The **bookdown** package can be installed from CRAN or Github:
-
-```{r eval=FALSE}
-install.packages("bookdown")
-# or the development version
-# devtools::install_github("rstudio/bookdown")
+```{r logo, fig.align='center', echo=FALSE, include=identical(knitr:::pandoc_to(), 'html'), fig.link='https://mavrxlab.org'}
+knitr::include_graphics('images/square-solid.jpg', dpi = NA)
 ```
 
-Remember each Rmd file contains one and only one chapter, and a chapter is defined by the first-level heading `#`.
+This manual was created using the **bookdown** package [@R-bookdown], which was built on top of R Markdown and **knitr** [@xie2015].
 
-To compile this example to PDF, you need XeLaTeX. You are recommended to install TinyTeX (which includes XeLaTeX): <https://yihui.name/tinytex/>.
+The contents of this manual are heavily influenced^[read: stolen, but with permission] by John Paul Minda and Emily Nielsen's *Lab Manual*  [-@Minda_Nielsen_2018].
 
-```{r include=FALSE}
-# automatically create a bib database for R packages
-knitr::write_bib(c(
-  .packages(), 'bookdown', 'knitr', 'rmarkdown'
-), 'packages.bib')
+## Using this book {-}
+
+This manual is licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/). It is available as a PDF, eBook, or via the web. We encourage you to use the **OSF** project to cite this particular document. (Coming soon.)
+
+```{r cc-license, fig.align='center', echo=FALSE, include=identical(knitr:::pandoc_to(), 'html'), fig.link='http://creativecommons.org/licenses/by-nc-sa/4.0/'}
+knitr::include_graphics('images/by-nc-sa.png', dpi = NA)
 ```
+
+## Structure {-}
+
+This manual should be considered a comprehensive living document aimed at presenting a unified understanding of how the lab works and what it should become.
+

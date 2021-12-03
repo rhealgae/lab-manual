@@ -1,0 +1,19 @@
+# About the MA{VR}X Lab {-}
+
+About the lab goes here.
+
+Information here can be taken directly from the website, if desired.
+
+## History {-}
+
+History of the lab.
+
+## Identity {-}
+
+The lab's identity is determined by three basic concepts: its mission, vision, and values.
+
+### Mission {-}
+
+### Vision  {-}
+
+### Values  {-}

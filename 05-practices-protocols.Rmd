@@ -1,0 +1,4 @@
+# Practices and Protocols {#protocols}
+
+We deal with a lot of disparate technologies, fields, and methodologies. Having clear and available policies, practices, and protocols is absolutely essential.
+

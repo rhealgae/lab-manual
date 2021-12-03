@@ -1,0 +1,3 @@
+# Communications {#comms}
+
+Ways we communicate and collaborate in the lab.

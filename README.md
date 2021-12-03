@@ -1,4 +1,5 @@
-This is the bookdown content for the MAVX Lab style guide.
+
+This is the bookdown content for the MAVRX Lab style guide.
 
 It is a work in progress.
 

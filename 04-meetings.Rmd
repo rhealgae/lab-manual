@@ -1,7 +1,7 @@
-# Applications
+# Meetings {#meetings}
 
 Some _significant_ applications are demonstrated in this chapter.
 
-## Example one
+## Types and frequency
 
-## Example two
+## Notes/Minutes
