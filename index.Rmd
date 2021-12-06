@@ -21,7 +21,7 @@ description: "This is the lab manual for the Mixed Augmented ViRtual eXtended Re
 
 # Preface {-}
 
-**THIS IS A WORK IN PROGRESS! Until stated otherwise, the content of this book should be considered unofficial and in an sactive draft stage.**
+**THIS IS A WORK IN PROGRESS! Until stated otherwise, the content of this book should be considered unofficial and in an active draft stage.**
 
 ```{r logo, fig.align='center', echo=FALSE, include=identical(knitr:::pandoc_to(), 'html'), fig.link='https://mavrxlab.org'}
 knitr::include_graphics('images/square-solid.jpg', dpi = NA)
