@@ -18,4 +18,15 @@ Projects should be housed in the lab's OSF project but the actual work done in t
 
 Having a well-written and organized `README` file in your repository is absolutely essential. To conform with [UA Research Data Repository Policies](https://data.library.arizona.edu/data-management/best-practices/data-documentation-readme-metadata) (and to have a consistent organization), you should at least start with the [README_template.txt](https://osf.io/sj8xv/) they provide. You are also encouraged to maintain a step-by-step process that describes your project environment, how to run any cleaning scripts (if applicable), and how to reproduce the manuscript/slide deck/et cetera. [software_in_research_survey_2014/README.md](https://github.com/softwaresaved/software_in_research_survey_2014/blob/1.0/README.md) is a good example of this.
 
+Likewise, when describing commits in GitHub or describing updates in OSF, please don't skimp. Commits are cheap and the next person that reads what you left will thank you.
+
 *Protip*: use GitHub's `Release` function to keep track of substantive updates to a project by keeping track of release notes and next steps. This will also help spin up a new collaborator should someone join your project.
+
+### Filenames
+
+We believe in standardizing as much as we can in order for consistency and clarity. Filenames should be chosen using the three considerations delimited by [Jenny Bryan's "How to name files"](https://speakerdeck.com/jennybc/how-to-name-files?slide=4). They should be:
+
+1. Machine readable
+1. Human readable
+1. Plays well with default ordering
+

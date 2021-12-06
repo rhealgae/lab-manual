@@ -10,7 +10,7 @@ We have meetings. We hold them via Zoom. We may hold them in Teamflow or Spatial
 + Assistants/workers: **biweekly**
   + Check-ins.
 + Faculty Research Fellows: **as needed**
-  + This may be monthly, generally, but depends on 
+  + This may be monthly, generally, but depends on the projects at the time.
 
 ## Notes/Minutes
 
@@ -64,3 +64,7 @@ Add yourself to the list if you attend and check the box!
 Questions, comments or concerns? Submit a comment or PR for this set of notes after they're published.
 
 ```
+
+### FERPA
+
+- [ ] RS: Check if there are *any* FERPA concerns with making these meeting minutes public.
