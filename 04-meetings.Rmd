@@ -4,8 +4,63 @@ We have meetings. We hold them via Zoom. We may hold them in Teamflow or Spatial
 
 ## Types and frequency
 
-+ ?
++ Researchers actively working: **weekly**
+  + Briefly update the lab on whatever they are working on.
+  + This is also an opportunity for practice talks, elevator pitches for new project ideas, so on.
++ Assistants/workers: **biweekly**
+  + Check-ins.
++ Faculty Research Fellows: **as needed**
+  + This may be monthly, generally, but depends on 
 
 ## Notes/Minutes
 
-Notes and minutes from meetings will--again, when appropriately public-facing--will be kept in the lab's OSF ecosystem.
+Notes and minutes from meetings^[Meeting minutes template based on the [core-notes/template.md at master · emberjs/core-notes](https://github.com/emberjs/core-notes/blob/master/learning-team/template.md)] will--again, when appropriately public-facing--will be kept in the lab's OSF ecosystem.
+
+Template for meeting notes in markdown:
+
+```markdown
+# YYYY-MM-DD HH:MM:SS
+
+- Lead:
+- Note Taker: 
+
+## Attendees
+
+Add yourself to the list if you attend and check the box!
+
+### Core Team
+
+- [ ] Ryan Straight (RS)
+- [ ] Diana Saldana (DS)
+- [ ] Tony Vega (TV)
+- [ ] Tyler Rhea (TR)
+- [ ] Ariella Valencia (AV)
+
+### Guests
+
+- [] Your name here (INITIALS)
+
+## Weekly review
+
+- (General notes on weekly review here.)
+
+## Topics
+
+<!-- If you would like to add a topic to the agenda please add your name to the appropriate list above and add a suggestion to the PR using the following format: -->
+<!-- ### Your topic (INITIALS, expected duration in minutes) -->
+
+<!-- ### Your topic (INITIALS, expected duration in minutes) -->
+
+<!-- ### Your topic (INITIALS, expected duration in minutes) -->
+
+<!-- ### Your topic (INITIALS, expected duration in minutes) -->
+
+<!-- ### Your topic (INITIALS, expected duration in minutes) -->
+
+<!-- ### Your topic (INITIALS, expected duration in minutes) -->
+
+## Any Questions?
+
+Questions, comments or concerns? Submit a comment or PR for this set of notes after they're published.
+
+```
