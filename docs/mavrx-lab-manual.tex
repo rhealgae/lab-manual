@@ -5,14 +5,13 @@
 %
 \documentclass[
 ]{book}
+\usepackage{amsmath,amssymb}
 \usepackage{lmodern}
-\usepackage{amsmath}
 \usepackage{ifxetex,ifluatex}
 \ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
   \usepackage[T1]{fontenc}
   \usepackage[utf8]{inputenc}
   \usepackage{textcomp} % provide euro and other symbols
-  \usepackage{amssymb}
 \else % if luatex or xetex
   \usepackage{unicode-math}
   \defaultfontfeatures{Scale=MatchLowercase}
@@ -47,7 +46,47 @@
   urlcolor=Blue,
   pdfcreator={LaTeX via pandoc}}
 \urlstyle{same} % disable monospaced font for URLs
-\usepackage{longtable,booktabs}
+\usepackage{color}
+\usepackage{fancyvrb}
+\newcommand{\VerbBar}{|}
+\newcommand{\VERB}{\Verb[commandchars=\\\{\}]}
+\DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
+% Add ',fontsize=\small' for more characters per line
+\usepackage{framed}
+\definecolor{shadecolor}{RGB}{248,248,248}
+\newenvironment{Shaded}{\begin{snugshade}}{\end{snugshade}}
+\newcommand{\AlertTok}[1]{\textcolor[rgb]{0.94,0.16,0.16}{#1}}
+\newcommand{\AnnotationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\AttributeTok}[1]{\textcolor[rgb]{0.77,0.63,0.00}{#1}}
+\newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\BuiltInTok}[1]{#1}
+\newcommand{\CharTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\CommentTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
+\newcommand{\CommentVarTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\ConstantTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
+\newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{#1}}
+\newcommand{\DecValTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\DocumentationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\ErrorTok}[1]{\textcolor[rgb]{0.64,0.00,0.00}{\textbf{#1}}}
+\newcommand{\ExtensionTok}[1]{#1}
+\newcommand{\FloatTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\ImportTok}[1]{#1}
+\newcommand{\InformationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
+\newcommand{\NormalTok}[1]{#1}
+\newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.81,0.36,0.00}{\textbf{#1}}}
+\newcommand{\OtherTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{#1}}
+\newcommand{\PreprocessorTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
+\newcommand{\RegionMarkerTok}[1]{#1}
+\newcommand{\SpecialCharTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\SpecialStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\StringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\VariableTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\WarningTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\usepackage{longtable,booktabs,array}
 \usepackage{calc} % for calculating minipage widths
 % Correct order of tables after \paragraph or \subparagraph
 \usepackage{etoolbox}
@@ -97,7 +136,7 @@
 \makeatother
 \subtitle{Or, A Virtual Researcher's Illustrated Primer}
 \author{Dr.~Ryan Straight}
-\date{2021-12-02}
+\date{2021-12-06}
 
 \begin{document}
 \maketitle
@@ -109,6 +148,8 @@
 }
 \listoftables
 \listoffigures
+\textbf{THIS IS A WORK IN PROGRESS!}
+
 \hypertarget{preface}{%
 \chapter*{Preface}\label{preface}}
 \addcontentsline{toc}{chapter}{Preface}
@@ -164,65 +205,434 @@ The lab's identity is determined by three basic concepts: its mission, vision, a
 \hypertarget{people}{%
 \chapter{People and Roles}\label{people}}
 
-The people in the lab, their roles, and expectations.
+For detailed in formation on those working within/for the lab, visit the \href{https://mavrxlab.org/people}{MAVRX Lab's website}\footnote{If the content of the lab ever drifts into first-person, presume the speaking voice is the director.}.
 
-\hypertarget{director-dr.-ryan-straight}{%
-\section{Director: Dr.~Ryan Straight}\label{director-dr.-ryan-straight}}
+The expectations and roles within the lab revolved around the \protect\hyperlink{openness}{openness} that we strive for, so clarity and frankness are valuable. It is important to remember that the lab is a resource, and the main role within the lab--that of the director--is to assist others in the utilization of that resource.
 
-\ldots{}
+\hypertarget{director}{%
+\section{Director}\label{director}}
+
+The director of the lab is responsible for the day-to-day administration of the physical, digital, and logistical spaces. While responsibilities may be delegated--and often are--the director is ultimately responsible for ensuring the lab is functional and productive.
+
+Additionally, the director often serves in an advisory capacity for student research. This ranges from initial ideation to research project design to means of publication. That said, the director is not a ``boss'' of the lab; instead, they provide guidance at all levels, from the lab's research trajectory and agenda as a whole to advising on a project-by-project basis.
 
 \hypertarget{faculty-research-fellows}{%
 \section{Faculty Research Fellows}\label{faculty-research-fellows}}
 
-\begin{itemize}
-\tightlist
-\item
-  Dr.~Diana Saldana
-\item
-  Michael Galde
-\end{itemize}
+\ldots{}
 
-\hypertarget{undergraduate-lab-assistants}{%
-\section{Undergraduate Lab Assistants}\label{undergraduate-lab-assistants}}
+\hypertarget{undergraduate-research-fellows}{%
+\section{Undergraduate Research Fellows}\label{undergraduate-research-fellows}}
+
+Usually works directly under a faculty member or graduate student. The faculty need not be a member of the lab, but the director or a Faculty Research Fellow should be in the loop at all times.
 
 \begin{itemize}
 \tightlist
 \item
-  Tyler Rhea
+  Stipend?
 \item
-  Tony Vega
+  Volunteer
+\item
+  For-credit (preceptorship or independent study)
+\item
+  Honors?
 \end{itemize}
+
+\hypertarget{lab-assistants}{%
+\section{Lab Assistants}\label{lab-assistants}}
+
+Some students will be paid to ``work in the lab,'' which could be anything from assisting in faculty research to lab maintenance to doing market research. While undergraduate research fellows may also be lab assistants, an overlap is not necessarily required or expected.
+
+Regardless of someone's role in the lab, there are expectations of professionalism, intellectual integrity, curiosity, and passion for praxis, the technology we explore, and the future we're creating.
 
 \hypertarget{spaces}{%
 \chapter{Labs and Physical Spaces}\label{spaces}}
 
-\ldots{}
+The MA\{VR\}X Lab has two official physical spaces: room B158 on the University of Arizona Sierra Vista campus, and \_\_\_\_\_\_\_\_ on the University of Arizona Yuma campus.
+
+\hypertarget{sierra-vista}{%
+\section{Sierra Vista}\label{sierra-vista}}
+
+\begin{itemize}
+\tightlist
+\item
+  Map of campus
+\item
+  Hardware maintenance
+\item
+  Process to get keys and keypad entry
+\item
+  Cleaning
+\item
+  Important phone numbers and emails
+\end{itemize}
+
+\hypertarget{yuma}{%
+\section{Yuma}\label{yuma}}
+
+\hypertarget{other-locations}{%
+\section{Other Locations}\label{other-locations}}
+
+Plans to expand into other locations like Chandler are in the works.
 
 \hypertarget{comms}{%
 \chapter{Communications}\label{comms}}
 
 Ways we communicate and collaborate in the lab.
 
+\hypertarget{email}{%
+\section{Email}\label{email}}
+
+The lab has its own email address: \texttt{MAVRX-Lab@arizona.edu} used for external communication. The director monitors this.
+
+\hypertarget{discord}{%
+\section{Discord}\label{discord}}
+
+For virtually all lab-related chatting, announcements, and so on, we have a lab Discord server.
+
+\hypertarget{social}{%
+\section{Social Media}\label{social}}
+
+The lab's social media presence is generally restricted to Twitter and YouTube. Research assistants are welcome to tweet relevant content from the lab's account. The director can help you set this up. Content ideas for YouTube should be discussed at length with the director, as this also requires getting other administrative bodies involved.
+
+\hypertarget{webpage}{%
+\section{Webpage}\label{webpage}}
+
+We maintain a \texttt{blogdown} website for the lab at \url{https://mavrxlab.org}. This is where we share news items, project updates, upcoming talks, publication notifications, and so on. Specifically, Rmarkdown is used for this as it allows for native inclusion of data analyses and plain-text content creation. This book, for example, is a \texttt{bookdown} publication, also created using Rmarkdown.
+
 \hypertarget{meetings}{%
 \chapter{Meetings}\label{meetings}}
 
-Some \emph{significant} applications are demonstrated in this chapter.
+We have meetings. We hold them via Zoom. We may hold them in Teamflow or Spatial.
 
 \hypertarget{types-and-frequency}{%
 \section{Types and frequency}\label{types-and-frequency}}
 
+\begin{itemize}
+\tightlist
+\item
+  Researchers actively working: \textbf{weekly}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Briefly update the lab on whatever they are working on.
+  \item
+    This is also an opportunity for practice talks, elevator pitches for new project ideas, so on.
+  \end{itemize}
+\item
+  Assistants/workers: \textbf{biweekly}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Check-ins.
+  \end{itemize}
+\item
+  Faculty Research Fellows: \textbf{as needed}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    This may be monthly, generally, but depends on the projects at the time.
+  \end{itemize}
+\end{itemize}
+
 \hypertarget{notesminutes}{%
 \section{Notes/Minutes}\label{notesminutes}}
+
+Notes and minutes from meetings\footnote{Meeting minutes template based on the \href{https://github.com/emberjs/core-notes/blob/master/learning-team/template.md}{core-notes/template.md at master · emberjs/core-notes}} will--again, when appropriately public-facing--will be kept in the lab's OSF ecosystem.
+
+Template for meeting notes in markdown:
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{\# YYYY{-}MM{-}DD HH:MM:SS}
+
+\SpecialStringTok{{-} }\NormalTok{Lead:}
+\SpecialStringTok{{-} }\NormalTok{Note Taker: }
+
+\FunctionTok{\#\# Attendees}
+
+\NormalTok{Add yourself to the list if you attend and check the box!}
+
+\FunctionTok{\#\#\# Core Team}
+
+\SpecialStringTok{{-} }\VariableTok{[ ]}\NormalTok{ Ryan Straight (RS)}
+\SpecialStringTok{{-} }\VariableTok{[ ]}\NormalTok{ Diana Saldana (DS)}
+\SpecialStringTok{{-} }\VariableTok{[ ]}\NormalTok{ Tony Vega (TV)}
+\SpecialStringTok{{-} }\VariableTok{[ ]}\NormalTok{ Tyler Rhea (TR)}
+\SpecialStringTok{{-} }\VariableTok{[ ]}\NormalTok{ Ariella Valencia (AV)}
+
+\FunctionTok{\#\#\# Guests}
+
+\SpecialStringTok{{-} }\NormalTok{[] Your name here (INITIALS)}
+
+\FunctionTok{\#\# Weekly review}
+
+\SpecialStringTok{{-} }\NormalTok{(General notes on weekly review here.)}
+
+\FunctionTok{\#\# Topics}
+
+\CommentTok{\textless{}!{-}{-} If you would like to add a topic to the agenda please add your name to the appropriate list above and add a suggestion to the PR using the following format: {-}{-}\textgreater{}}
+\CommentTok{\textless{}!{-}{-} }\AlertTok{\#\#\#}\CommentTok{ Your topic (INITIALS, expected duration in minutes) {-}{-}\textgreater{}}
+
+\CommentTok{\textless{}!{-}{-} }\AlertTok{\#\#\#}\CommentTok{ Your topic (INITIALS, expected duration in minutes) {-}{-}\textgreater{}}
+
+\CommentTok{\textless{}!{-}{-} }\AlertTok{\#\#\#}\CommentTok{ Your topic (INITIALS, expected duration in minutes) {-}{-}\textgreater{}}
+
+\CommentTok{\textless{}!{-}{-} }\AlertTok{\#\#\#}\CommentTok{ Your topic (INITIALS, expected duration in minutes) {-}{-}\textgreater{}}
+
+\CommentTok{\textless{}!{-}{-} }\AlertTok{\#\#\#}\CommentTok{ Your topic (INITIALS, expected duration in minutes) {-}{-}\textgreater{}}
+
+\CommentTok{\textless{}!{-}{-} }\AlertTok{\#\#\#}\CommentTok{ Your topic (INITIALS, expected duration in minutes) {-}{-}\textgreater{}}
+
+\FunctionTok{\#\# Any Questions?}
+
+\NormalTok{Questions, comments or concerns? Submit a comment or PR for this set of notes after they\textquotesingle{}re published.}
+\end{Highlighting}
+\end{Shaded}
+
+\hypertarget{ferpa}{%
+\subsection{FERPA}\label{ferpa}}
+
+\begin{itemize}
+\tightlist
+\item[$\square$]
+  RS: Check if there are \emph{any} FERPA concerns with making these meeting minutes public.
+\end{itemize}
 
 \hypertarget{protocols}{%
 \chapter{Practices and Protocols}\label{protocols}}
 
-We deal with a lot of disparate technologies, fields, and methodologies. Having clear and available policies, practices, and protocols is absolutely essential.
+We deal with disparate technologies, fields, and methodologies. Having clear and available policies, practices, and protocols is absolutely essential.
+
+\hypertarget{docs-and-mans}{%
+\section{Documentation and Manuscripts}\label{docs-and-mans}}
+
+\hypertarget{fileformats}{%
+\subsection{File Formats}\label{fileformats}}
+
+Along with the \ref{openness} we strive for when desseminating work via the lab, open formats should also be used when possible.
+
+Documents: markdown (Rmarkdown) or RTF\\
+Images: JPEG-2000 or TIFF\\
+Video: MP4
+
+\hypertarget{documenting}{%
+\subsection{Documenting and Record Keeping}\label{documenting}}
+
+Projects should be housed in the lab's OSF project but the actual work done in these projects--writing, code, et cetera--should go in a GitHub repository within the lab's organization. That repository can then be linked to the OSF sub-project.
+
+Having a well-written and organized \texttt{README} file in your repository is absolutely essential. To conform with \href{https://data.library.arizona.edu/data-management/best-practices/data-documentation-readme-metadata}{UA Research Data Repository Policies} (and to have a consistent organization), you should at least start with the \href{https://osf.io/sj8xv/}{README\_template.txt} they provide. You are also encouraged to maintain a step-by-step process that describes your project environment, how to run any cleaning scripts (if applicable), and how to reproduce the manuscript/slide deck/et cetera. \href{https://github.com/softwaresaved/software_in_research_survey_2014/blob/1.0/README.md}{software\_in\_research\_survey\_2014/README.md} is a good example of this.
+
+Likewise, when describing commits in GitHub or describing updates in OSF, please don't skimp. Commits are cheap and the next person that reads what you left will thank you.
+
+\emph{Protip}: use GitHub's \texttt{Release} function to keep track of substantive updates to a project by keeping track of release notes and next steps. This will also help spin up a new collaborator should someone join your project.
+
+\hypertarget{filenames}{%
+\subsection{Filenames}\label{filenames}}
+
+We believe in standardizing as much as we can in order for consistency and clarity. Filenames should be chosen using the three considerations delimited by \href{https://speakerdeck.com/jennybc/how-to-name-files?slide=4}{Jenny Bryan's ``How to name files''}. They should be:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Machine readable
+\item
+  Human readable
+\item
+  Plays well with default ordering
+\end{enumerate}
 
 \hypertarget{diss}{%
 \chapter{Dissemination of Lab Products}\label{diss}}
 
 We create things. This is how they get shared with the world.
+
+\hypertarget{openness}{%
+\section{Openness}\label{openness}}
+
+Firstly, we endeavour to do as much work as possible in public to encourage transparency, honesty, and to support open science.
+
+\hypertarget{fair-principles}{%
+\subsection{FAIR Principles}\label{fair-principles}}
+
+We strive to adhere to \href{https://www.go-fair.org/fair-principles/}{FAIR Principles}, meaning we aim to develop and provide digital assets that are \textbf{F}indable, \textbf{A}ccessible, \textbf{I}nteroperable, and \textbf{R}eusable using the FAIRification Framework:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Metadata for Machines (M4M)
+\item
+  FAIR Implementation Profile (FIP)
+\item
+  FAIR Data Points (FDP) \& FAIR Digital Objects (FDO)
+\end{enumerate}
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.33\linewidth]{images/icon_circle_M4M_text} \includegraphics[width=0.33\linewidth]{images/icon_circle_FIP_text} \includegraphics[width=0.33\linewidth]{images/icon_circle_FDP_text} 
+
+}
+
+\caption{FAIRification Framework}\label{fig:unnamed-chunk-1}
+\end{figure}
+
+\hypertarget{open-science-framework}{%
+\subsection{Open Science Framework}\label{open-science-framework}}
+
+In this vein, this book is open source and our projects are, when feasible, registered and tracked using the \href{https://osf.io}{Open Science Framework} supported by the \href{https://data.library.arizona.edu/data-management/services/open-science-framework-osf}{Data Cooperative} through the University Libraries at the University of Arizona. The OSF ``is a research collaboration platform that is freely available to all researchers. It allows for the management and sharing of research projects at all stages of research.''
+
+Through the OSF and field-specific preprint servers (i.e., SocArXiv, EdArXiv, et cetera), all publications that can legally be provided publicly via these services will be.
+
+Research fellows--faculty and student, alike--should create OSF profiles to allow for transparent and clear attribution.
+
+\hypertarget{redata}{%
+\subsection{ReData}\label{redata}}
+
+When applicable, we store data using the \href{https://data.library.arizona.edu/data-management/services/research-data-repository-redata}{The University of Arizona Research Data Repository (ReDATA)} repository, also provided by the Data Cooperative, which
+
+\begin{quote}
+\ldots serves as the institutional repository for non-traditional scholarly outputs resulting from research activities by University of Arizona researchers. Depositing research materials (datasets, code, images, videos, etc.) associated with published articles and/or completed grants and research projects into ReDATA helps UA researchers ensure compliance with funder and journal data sharing policies as well as University data retention policies.
+\end{quote}
+
+Given the nature of the work done in the MA\{VR\}X Lab, some content (large video recordings, for example) may be stored elsewhere. Links to data will regardless be linked within OSF projects.
+
+\hypertarget{writing}{%
+\section{Writing}\label{writing}}
+
+\begin{itemize}
+\tightlist
+\item
+  Markdown (specifically, Rmarkdown)
+\item
+  \texttt{papaja}
+\item
+  Zotero
+\item
+  Obsidian (for your notes)
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Use the Zotero -\textgreater{} Zotfile -\textgreater{} mdnotes -\textgreater{} Obsidian -\textgreater{} Rmarkdown pathway for an incredibly powerful and collaborative workflow.
+  \end{itemize}
+\end{itemize}
+
+The importance of writing about your ideas and work cannot be overstated. Take it seriously, do it often, and get others involved.
+
+\hypertarget{publishing}{%
+\section{Publishing}\label{publishing}}
+
+The MA\{VR\}X Lab is, at heart, a research entity devoted to \emph{applied} research.
+
+\hypertarget{conferences}{%
+\subsection{Conferences}\label{conferences}}
+
+You are encouraged to present research at conferences. The lab has a small budget to assist in students' research presentation.
+
+This is a list of conferences that those affiliated with the lab have attended, presented at, helped organize, or simply encourage knowing more about:
+
+(List of conferences goes here!)
+
+\hypertarget{authorship}{%
+\section{Authorship}\label{authorship}}
+
+To transparently and fairly maintain a record of contributions, the lab follows the \href{https://casrai.org/credit/}{CRediT - Contributor Roles Taxonomy}. These roles are as follows:
+
+\begin{itemize}
+\tightlist
+\item
+  Conceptualization
+\item
+  Data curation
+\item
+  Formal Analysis
+\item
+  Funding acquisition
+\item
+  Investigation
+\item
+  Methodology
+\item
+  Project administration
+\item
+  Resources
+\item
+  Software
+\item
+  Supervision
+\item
+  Validation
+\item
+  Visualization
+\item
+  Writing -- original draft
+\item
+  Writing -- review \& editing
+\end{itemize}
+
+Including a \href{https://osf.io/wj3hb/}{spreadsheet in your project directory} that keeps track of who is fulfilling which role is required. Note that some roles may not be applicable (a student working on a self-directed project likely could ignore the \emph{Funding acquisition} role, for example).
+
+\hypertarget{contribution}{%
+\subsection{Contribution}\label{contribution}}
+
+What counts as a contribution? Keep in mind that the CRediT taxonomy above is not a checklist insofar as it is not binary; making some punctuation changes in a manuscript, while technically ``editing,'' does not necessarily qualify you for the \emph{Writing - review \& editing} role. You should consider contributions to be \emph{substantive} and \emph{meaningful}.
+
+To be considered an author on a publication, you should have:
+
+\begin{itemize}
+\tightlist
+\item
+  designed one or more experiment,
+\item
+  wrote the initial draft for a major section,
+\item
+  wrote the entire paper, and/or
+\item
+  designed and carried out the analyses.
+\end{itemize}
+
+This is not to say that not having been involved to this degree means your work goes unappreciated or unacknowledged. For example, to receive named recognition in the author note or acknowledgements section, depending on the type of publication, you might have:
+
+\begin{itemize}
+\tightlist
+\item
+  helped to carry out data collection,
+\item
+  created a table or figure,
+\item
+  created or cleaned a data set,
+\item
+  engaged in media wrangling and editing, and/or
+\item
+  helped edit or proofread the manuscript.
+\end{itemize}
+
+\hypertarget{author-order}{%
+\subsection[Author Order]{\texorpdfstring{Author Order\footnote{This policy is, like much of this document, heavily influenced by \citet{Minda_Nielsen_2018} to the extent that drawing attention to it again is warranted.}}{Author Order}}\label{author-order}}
+
+Author order is not arbitrary, nor is it necessarily simply a descending list based on effort, at least the first and last author positions, specifically. That is, when involving student researchers, the \emph{first} author typically goes to the student that wrote the majority of the paper, while the \emph{last} author is the faculty research advisor, principle investigator, or the lab director (if they provided guidance).
+
+Note that there is typically also a \emph{corresponding author}, who is essentially the point-of-contact for the work. They are the shepherd for that particular project and are in charge of correspondence. This is typically the first or last author.
+
+Within the MA\{VR\}X Lab, there are generally three kinds of publication authorship considerations:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  If the director or a faculty research fellow designed the experiment/project and was responsible for most of the authoring, they will be first and corresponding author.
+\item
+  If a student researcher assisted in \emph{some} the research (by carrying out some of the experimentation, for example) under the supervision of the director or a faculty research fellow but the student was not responsible for the research design and/or writing most of the paper, the same applies from \#1.
+\item
+  If a student researcher was primarily/entirely responsible for designing and conducting research, and wrote most of the paper, all under the supervision of the director or a faculty research fellow, the student researcher will be first author and the director or faculty research fellow will be last and corresponding author.
+\item
+  Authorship with graduate students is usually decided on a one-by-one project basis. Discuss this with your supervisor.
+\end{enumerate}
 
   \bibliography{book.bib,packages.bib}
 

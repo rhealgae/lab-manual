@@ -19,6 +19,7 @@ github-repo: mavrxlab/lab-manual
 description: "This is the lab manual for the Mixed Augmented ViRtual eXtended Reality Lab in the College of Applied Science and Technology at the University of Arizona."
 ---
 
+**THIS IS A WORK IN PROGRESS!**
 
 # Preface {-}
 

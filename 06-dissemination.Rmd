@@ -15,7 +15,9 @@ We strive to adhere to [FAIR Principles](https://www.go-fair.org/fair-principles
 1. FAIR Data Points (FDP) & FAIR Digital Objects (FDO)
 
 ```{r, echo=FALSE,out.width="33%",fig.cap="FAIRification Framework",fig.show='hold',fig.align='center'}
-knitr::include_graphics(c("https://www.go-fair.org/wp-content/uploads/2020/07/icon_circle_M4M_text.png","https://www.go-fair.org/wp-content/uploads/2020/07/icon_circle_FIP_text.png", "https://www.go-fair.org/wp-content/uploads/2020/07/icon_circle_FDP_text.png"))
+knitr::include_graphics(c("images/icon_circle_M4M_text.png",
+                          "images/icon_circle_FIP_text.png",
+                          "images/icon_circle_FDP_text.png"))
 ``` 
 
 
@@ -56,7 +58,7 @@ You are encouraged to present research at conferences. The lab has a small budge
 
 This is a list of conferences that those affiliated with the lab have attended, presented at, helped organize, or simply encourage knowing more about:
 
-...
+(List of conferences goes here!)
 
 ## Authorship
 
