@@ -6,11 +6,18 @@ We deal with disparate technologies, fields, and methodologies. Having clear and
 
 ### File Formats {#fileformats}
 
-Along with the \@ref(openness) we strive for when desseminating work via the lab, open formats should also be used when possible.
+Along with the \@ref(openness) we strive for when disseminating work via the lab, open formats should also be used when possible.
 
-Documents: markdown (Rmarkdown) or RTF  
-Images: JPEG-2000 or TIFF  
-Video: MP4
+Documents: [markdown](https://www.markdownguide.org/cheat-sheet) ([Rmarkdown](https://uoepsy.github.io/usmr/cheatsheet/rmarkdown-2.0.pdf)) or RTF  
+Audio: [FLAC - Free Lossless Audio Codec](https://xiph.org/flac/) or [OGG (Ogg Vorbis)](https://www.xiph.org/vorbis/)
+Images: [JPEG-2000](https://jpeg.org/jpeg2000/index.html) or [TIFF](https://www.adobe.com/creativecloud/file-types/image/raster/tiff-file.html)  
+Video: [MP4](https://en.wikipedia.org/wiki/MPEG-4_Part_14) or [MKV](https://en.wikipedia.org/wiki/Matroska) (H.264 or H.265 encoded)
+
+While the University of Arizona provides free access to the entire Adobe Creative Cloud to anyone in its ecosystem, which the lab primarily uses, we also encourage the knowledge and use of free, open source software (FOSS) as an optional alternative:
+
++ [HandBrake: Open Source Video Transcoder](https://handbrake.fr/)
++ [GIMP - GNU Image Manipulation Program](https://www.gimp.org/)
++ [ardour - the digital audio workstation](https://ardour.org/)
 
 ### Documenting and Record Keeping {#documenting}
 
@@ -22,11 +29,16 @@ Likewise, when describing commits in GitHub or describing updates in OSF, please
 
 *Protip*: use GitHub's `Release` function to keep track of substantive updates to a project by keeping track of release notes and next steps. This will also help spin up a new collaborator should someone join your project.
 
+Note that you don't just have to be coding applications to use GitHub! Use it for slide decks, papers, websites, and all sorts of things (like this lab manual, for example!).
+
 ### Filenames
 
-We believe in standardizing as much as we can in order for consistency and clarity. Filenames should be chosen using the three considerations delimited by [Jenny Bryan's "How to name files"](https://speakerdeck.com/jennybc/how-to-name-files?slide=4). They should be:
+We believe in standardizing as much as we can in order for consistency and clarity. Filenames should be chosen using the three considerations delimited by [Jenny Bryan's "How to name files"](https://speakerdeck.com/jennybc/how-to-name-files?slide=4). They should have the following qualities:
 
 1. Machine readable
 1. Human readable
 1. Plays well with default ordering
 
+## Lab Safety
+
+...
