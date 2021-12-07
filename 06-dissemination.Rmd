@@ -106,9 +106,11 @@ Author order is not arbitrary, nor is it necessarily simply a descending list ba
 
 Note that there is typically also a *corresponding author*, who is essentially the point-of-contact for the work. They are the shepherd for that particular project and are in charge of correspondence. This is typically the first or last author.
 
-Within the MA{VR}X Lab, there are generally three kinds of publication authorship considerations:
+Within the MA{VR}X Lab, there are generally four kinds of publication authorship considerations:
 
 1. If the director or a faculty research fellow designed the experiment/project and was responsible for most of the authoring, they will be first and corresponding author.
 1. If a student researcher assisted in *some* the research (by carrying out some of the experimentation, for example) under the supervision of the director or a faculty research fellow but the student was not responsible for the research design and/or writing most of the paper, the same applies from #1.
 1. If a student researcher was primarily/entirely responsible for designing and conducting research, and wrote most of the paper, all under the supervision of the director or a faculty research fellow, the student researcher will be first author and the director or faculty research fellow will be last and corresponding author.
 1. Authorship with graduate students is usually decided on a one-by-one project basis. Discuss this with your supervisor.
+
+Generally speaking, if lab resources are being utilized, the director should have at least some advisory role in the publications or products and will likely default to last author.
