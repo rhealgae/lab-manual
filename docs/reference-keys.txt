@@ -22,6 +22,7 @@ docs-and-mans
 fileformats
 documenting
 filenames
+lab-safety
 diss
 openness
 fair-principles
