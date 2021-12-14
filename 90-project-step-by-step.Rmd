@@ -4,3 +4,42 @@
 
 This is a step-by-step instruction on how to begin a project from scratch. This is, as the rest of the manual, a living document.
 
+## Create Your Project
+
++ [Create a Project from a Template – OSF Guides](https://help.osf.io/hc/en-us/articles/360019930093-Create-a-Project-from-a-Template#Use-a-public-project-as-a-template)
+
+>A registration is a frozen version of your project that can never be edited or deleted, but you can issue a withdrawal of it later, leaving behind basic metadata. The project can continue to be edited and updated, providing you the option to register your project at different points throughout the research cycle.
+>
+>When you create the registration, you have the option of either making it public immediately or making it private for up to four years through an embargo. A registration is useful for certifying what you did in a project in advance of data analysis, or for confirming the exact state of the project at important points of the lifecycle, such as manuscript submission or the onset of data collection.
+
+
+
+## Pre-registration
+
+Pre-register your project with OSF in the MA{VR}X Lab's organization. Why pre-register?
+
+>The main goal of preregistering one’s research is to make it easier for readers (and yourself) to distinguish between what the you set out to do (confirmation) and what was discovered along the way (exploration).^[[Preregistration: A Plan, Not a Prison](https://www.cos.io/blog/preregistration-plan-not-prison)]
+
+It also has the benefit of establishing precisely what you intended and expect to find, precluding $p$-hacking^[[P-Hacking – Statistical Bullshit](https://statisticalbullshit.com/2017/07/17/p-hacking/)].
+
+>Only test relationships specified prior to collecting data. Recent databases have been created in which researchers can publicly identify relationships to test in their data before it has been collected, and then only test these relationships once the data has been collected.
+
+That said, remember that pre-registration is a *plan* and, as such, may become outdated or obsolete when things change unexpectedly. Preferably, if things do change, you should simply create a new pre-registration in the same project and either withdraw the previous one or simply reference the original now out-of-date pre-registration the new one. The time at which you do this is important^[[Preregistration: A Plan, Not a Prison](https://www.cos.io/blog/preregistration-plan-not-prison)].
+
+Here's a very important aspect of registering a project:
+
+>A registration on OSF creates a frozen, time-stamped version of a project that cannot be edited or deleted. The original project can still be edited, while the registered version cannot. You might create a registration to capture a snapshot of your project at certain points in time – such as right before data collection begins, when you submit a manuscript for peer review, or upon completion of a project.
+
+Technically, you *can* update a pre-registration within a particular set of circumstances^[[Introduction to Updating – OSF Guides](https://help.osf.io/hc/en-us/articles/4414482864663-Introduction-to-Updating-)]. Presume that the research design you're planning on using is the one you *will* use. Registration updates are for situations outside the researcher's control that are necessary to the project's completion.
+
+[How To Properly Preregister A Study - Data Colada](http://datacolada.org/64)
+
++ Choose the right pre-registration template: [Select a Registration Template – OSF Guides](https://help.osf.io/hc/en-us/articles/360019738794-Select-a-Registration-Template) (it is very likely you will choose one of the following)
+  1. [OSF | Qualitative Preregistration Template.docx](https://osf.io/w4ac2/)
+  1. [OSF | Preregistration for Qualitative Research Template.docx](https://osf.io/b6xmd/) (Kern & Skrede Gleditsch, 2017)
+  1. [OSF | Pre-Registration in Social Psychology (van 't Veer & Giner-Sorolla, 2016) Pre-Registration.docx](https://osf.io/ce3hr/)
+  1. [OSF | AsPredicted registration.docx](https://osf.io/fnsb6/)^[This is a good one to choose as it is very open. -RS]
+  1. [OSF | Replication Recipe (Brandt et al., 2013) Pre-Registration.docx](https://osf.io/4jd46/)
+    
+It's understandable that undergraduate researchers, especially, may feel hesitant to pre-register their work given they're still learning not just the content they're researching but *how to* research. This is actually a great reason to go through the open science framework: that willingness to demonstrate growth, transparency, and a dedication to the process can be tremendously impressive.
+

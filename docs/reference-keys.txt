@@ -37,4 +37,6 @@ authorship
 contribution
 author-order
 step-by-step-project-quickstart
+create-your-project
+pre-registration
 github
