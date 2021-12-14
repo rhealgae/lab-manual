@@ -1,0 +1,6 @@
+# (APPENDIX) Appendix {-} 
+
+# Step-by-Step Project Quickstart
+
+This is a step-by-step instruction on how to begin a project from scratch. This is, as the rest of the manual, a living document.
+

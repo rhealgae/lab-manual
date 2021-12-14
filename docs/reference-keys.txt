@@ -23,6 +23,8 @@ fileformats
 documenting
 filenames
 lab-safety
+reserving-lab-equipment
+requesting-lab-services
 diss
 openness
 fair-principles
@@ -34,3 +36,5 @@ conferences
 authorship
 contribution
 author-order
+step-by-step-project-quickstart
+github
