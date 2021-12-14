@@ -16,7 +16,7 @@ We have meetings. We hold them via Zoom. We may hold them in Teamflow or Spatial
 
 Notes and minutes from meetings^[Meeting minutes template based on the [core-notes/template.md at master · emberjs/core-notes](https://github.com/emberjs/core-notes/blob/master/learning-team/template.md)] will--again, when appropriately public-facing--will be kept in the lab's OSF ecosystem.
 
-Template for meeting notes in markdown:
+Template for meeting notes in markdown (found in the Meeting GH repo):
 
 ```markdown
 # YYYY-MM-DD HH:MM:SS
@@ -65,7 +65,3 @@ Add yourself to the list if you attend and check the box!
 Questions, comments or concerns? Submit a comment or PR for this set of notes after they're published.
 
 ```
-
-### FERPA
-
-- [ ] RS: Check if there are *any* FERPA concerns with making these meeting minutes public.

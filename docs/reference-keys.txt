@@ -16,13 +16,13 @@ webpage
 meetings
 types-and-frequency
 notesminutes
-ferpa
 protocols
 docs-and-mans
 fileformats
 documenting
 filenames
 lab-safety
+motion-sickness
 reserving-lab-equipment
 requesting-lab-services
 diss
@@ -36,7 +36,11 @@ conferences
 authorship
 contribution
 author-order
-step-by-step-project-quickstart
+step-by-step-project-lifecycle
+pitch-your-idea
 create-your-project
+credit-list-project-contributors
+irb-approval-optional-depending-on-project
 pre-registration
+depositing-data
 github
