@@ -4,7 +4,7 @@ We create things. This is how they get shared with the world.
 
 ## Openness {#openness}
 
-Firstly, we endeavour to do as much work as possible in public to encourage transparency, honesty, and to support open science.
+Firstly, we endeavor to do as much work as possible in public to encourage transparency, honesty, and to support open science.
 
 ### FAIR Principles
 
@@ -29,7 +29,7 @@ Through the OSF and field-specific preprint servers (i.e., SocArXiv, EdArXiv, et
 
 Research fellows--faculty and student, alike--should create OSF profiles to allow for transparent and clear attribution.
 
-### ReData
+### ReData {#redata}
 
 When applicable, we store data using the [The University of Arizona Research Data Repository (ReDATA)](https://data.library.arizona.edu/data-management/services/research-data-repository-redata) repository, also provided by the Data Cooperative, which
 
@@ -50,7 +50,7 @@ The importance of writing about your ideas and work cannot be overstated. Take i
 
 ## Publishing {#publishing}
 
-The MA{VR}X Lab is, at heart, a research entity devoted to *applied* research. 
+The MA{VR}X Lab is, at heart, a research entity devoted to *applied* research. This is, of course, not to say we aren't interested in or willing to support purely theoretical or exploratory research, especially when it is conceptualized as leading to concrete applications.
 
 ### Conferences {#conferences}
 
@@ -60,7 +60,7 @@ This is a list of conferences that those affiliated with the lab have attended, 
 
 (List of conferences goes here!)
 
-## Authorship
+## Authorship {#authorship}
 
 To transparently and fairly maintain a record of contributions, the lab follows the [CRediT - Contributor Roles Taxonomy](https://casrai.org/credit/). These roles are as follows:
 

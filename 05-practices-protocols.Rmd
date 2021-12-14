@@ -9,7 +9,7 @@ We deal with disparate technologies, fields, and methodologies. Having clear and
 Along with the \@ref(openness) we strive for when disseminating work via the lab, open formats should also be used when possible.
 
 Documents: [markdown](https://www.markdownguide.org/cheat-sheet) ([Rmarkdown](https://uoepsy.github.io/usmr/cheatsheet/rmarkdown-2.0.pdf)) or RTF  
-Audio: [FLAC - Free Lossless Audio Codec](https://xiph.org/flac/) or [OGG (Ogg Vorbis)](https://www.xiph.org/vorbis/)
+Audio: [FLAC - Free Lossless Audio Codec](https://xiph.org/flac/) or [OGG (Ogg Vorbis)](https://www.xiph.org/vorbis/)  
 Images: [JPEG-2000](https://jpeg.org/jpeg2000/index.html) or [TIFF](https://www.adobe.com/creativecloud/file-types/image/raster/tiff-file.html)  
 Video: [MP4](https://en.wikipedia.org/wiki/MPEG-4_Part_14) or [MKV](https://en.wikipedia.org/wiki/Matroska) (H.264 or H.265 encoded)
 
@@ -41,7 +41,20 @@ We believe in standardizing as much as we can in order for consistency and clari
 
 ## Lab Safety
 
-...
+As virtual reality has a tendency to cause diziness, motion sickness, and so on, the lab has a variety of health-related safety plans and protocols in place.
+
+### Motion Sickness
+
+Should someone become motion sick when in virtual reality, the following steps should be taken:
+
+1. Immediately stop the experience by standing still and removing the headset.
+1. Stare at one location as far away as you can.
+1. Take deep breaths.
+1. Sit down and rest.
+
+Should someone vomit during VR: (see lab guidance in the room for now)
+
+There is always cold water available in the minifridge in the Sierra Vista lab and suckers are in one of the drawers by the cabinet.
 
 ## Reserving Lab Equipment
 
