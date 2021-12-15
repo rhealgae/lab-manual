@@ -16,10 +16,10 @@ We have meetings. We hold them via Zoom. We may hold them in Teamflow or Spatial
 
 Notes and minutes from meetings^[Meeting minutes template based on the [core-notes/template.md at master · emberjs/core-notes](https://github.com/emberjs/core-notes/blob/master/learning-team/template.md)] will--again, when appropriately public-facing--will be kept in the lab's OSF ecosystem.
 
-Template for meeting notes in markdown (found in the Meeting GH repo):
+Template for meeting notes in markdown. This is also found in the [meeting-notes](https://github.com/mavrxlab/meeting-notes) repo, along with instructions on how to add/update/correct meeting notes:
 
 ```markdown
-# YYYY-MM-DD HH:MM:SS
+# YYYY-MM-DD HH:MM
 
 - Lead:
 - Note Taker: 
@@ -34,7 +34,7 @@ Add yourself to the list if you attend and check the box!
 - [ ] Diana Saldana (DS)
 - [ ] Tony Vega (TV)
 - [ ] Tyler Rhea (TR)
-- [ ] Juan Carlos (JC)
+- [ ] Juan Carlos Alcala (JCA)
 - [ ] Ariella Valencia (AV)
 
 ### Guests
@@ -47,7 +47,10 @@ Add yourself to the list if you attend and check the box!
 
 ## Topics
 
-<!-- If you would like to add a topic to the agenda please add your name to the appropriate list above and add a suggestion to the PR using the following format: -->
+<!-- If you would like to add a topic to the agenda please add
+your name to the appropriate list above and add a suggestion to
+the PR using the following format: -->
+
 <!-- ### Your topic (INITIALS, expected duration in minutes) -->
 
 <!-- ### Your topic (INITIALS, expected duration in minutes) -->
@@ -62,6 +65,7 @@ Add yourself to the list if you attend and check the box!
 
 ## Any Questions?
 
-Questions, comments or concerns? Submit a comment or PR for this set of notes after they're published.
+Questions, comments or concerns? Submit a comment or PR for this
+set of notes after they're published.
 
 ```
