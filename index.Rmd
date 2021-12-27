@@ -16,12 +16,16 @@ bibliography: [book.bib, packages.bib]
 biblio-style: apalike
 link-citations: yes
 colorlinks: yes
-lot: yes
-lof: yes
+lot: no
+lof: no
 
 github-repo: mavrxlab/lab-manual
 description: "This is the lab manual for the Mixed Augmented ViRtual eXtended Reality Lab in the College of Applied Science and Technology at the University of Arizona."
 ---
+
+```{r setup, echo=FALSE}
+library(tufte)
+```
 
 # Preface {-}
 
@@ -31,7 +35,7 @@ description: "This is the lab manual for the Mixed Augmented ViRtual eXtended Re
 knitr::include_graphics('images/square-solid.jpg', dpi = NA)
 ```
 
-This manual was created using the **bookdown** package [@R-bookdown], which was built on top of R Markdown and **knitr** [@xie2015].
+This manual was created using the **bookdown** package [@R-bookdown], which was built on top of R Markdown and **knitr** [@xie2015]. The PDF uses the Tufte package [@xieTufteTufteStyles2021].
 
 The contents of this manual are heavily influenced^[read: stolen, but with permission] by John Paul Minda and Emily Nielsen's *Lab Manual*  [-@Minda_Nielsen_2018].
 
