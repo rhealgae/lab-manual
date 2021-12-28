@@ -8,10 +8,10 @@ We deal with disparate technologies, fields, and methodologies. Having clear and
 
 Along with the \@ref(openness) we strive for when disseminating work via the lab, open formats should also be used when possible.
 
-Documents: [markdown](https://www.markdownguide.org/cheat-sheet) ([Rmarkdown](https://uoepsy.github.io/usmr/cheatsheet/rmarkdown-2.0.pdf)) or RTF  
-Audio: [FLAC - Free Lossless Audio Codec](https://xiph.org/flac/) or [OGG (Ogg Vorbis)](https://www.xiph.org/vorbis/)  
-Images: [JPEG-2000](https://jpeg.org/jpeg2000/index.html) or [TIFF](https://www.adobe.com/creativecloud/file-types/image/raster/tiff-file.html)  
-Video: [MP4](https://en.wikipedia.org/wiki/MPEG-4_Part_14) or [MKV](https://en.wikipedia.org/wiki/Matroska) (H.264 or H.265 encoded)
+**Documents**: [markdown](https://www.markdownguide.org/cheat-sheet) ([Rmarkdown](https://uoepsy.github.io/usmr/cheatsheet/rmarkdown-2.0.pdf)) or RTF  
+**Audio**: [FLAC - Free Lossless Audio Codec](https://xiph.org/flac/) or [OGG (Ogg Vorbis)](https://www.xiph.org/vorbis/)  
+**Images**: [JPEG-2000](https://jpeg.org/jpeg2000/index.html) or [TIFF](https://www.adobe.com/creativecloud/file-types/image/raster/tiff-file.html)  
+**Video**: [MP4](https://en.wikipedia.org/wiki/MPEG-4_Part_14) or [MKV](https://en.wikipedia.org/wiki/Matroska) (H.264 or H.265 encoded)
 
 While the University of Arizona provides free access to the entire Adobe Creative Cloud to anyone in its ecosystem, which the lab primarily uses, we also encourage the knowledge and use of free, open source software (FOSS) as an optional alternative:
 
@@ -25,9 +25,7 @@ Projects should be housed in the lab's OSF project but the actual work done in t
 
 Having a well-written and organized `README` file in your repository is absolutely essential. To conform with [UA Research Data Repository Policies](https://data.library.arizona.edu/data-management/best-practices/data-documentation-readme-metadata) (and to have a consistent organization), you should at least start with the [README_template.txt](https://osf.io/sj8xv/) they provide. You are also encouraged to maintain a step-by-step process that describes your project environment, how to run any cleaning scripts (if applicable), and how to reproduce the manuscript/slide deck/et cetera. The [2014 Software in Research survey](https://github.com/softwaresaved/software_in_research_survey_2014/blob/1.0/README.md) readme is a good example of this.
 
-Likewise, when describing commits in GitHub or describing updates in OSF, please don't skimp. Commits are cheap and the next person that reads what you left will thank you.
-
-*Protip*: use GitHub's `Release` function to keep track of substantive updates to a project by keeping track of release notes and next steps. This will also help spin up a new collaborator should someone join your project.
+Likewise, when describing commits in GitHub or describing updates in OSF, please don't skimp. Commits are cheap and the next person that reads what you left will thank you.^[Use GitHub's `Release` function to keep track of substantive updates to a project by keeping track of release notes and next steps. This will also help spin up a new collaborator should someone join your project.]
 
 Note that you don't just have to be coding applications to use GitHub! Use it for slide decks, papers, websites, and all sorts of things (like this lab manual, for example!).
 
@@ -39,9 +37,11 @@ We believe in standardizing as much as we can in order for consistency and clari
 1. Human readable
 1. Plays well with default ordering
 
+You'll want to name your files like `YYYY_MM_DD-Project_name-Sub_identifier-Slug.ext` or some such^[I prefer to use an underscore in place of a space and a dash as the separator of terms, concepts, and so on. This way allows you to Ctrl-Arrow through filenames and only stop at each portion rather than every word. -Dr S.    ]
+
 ## Lab Safety
 
-As virtual reality has a tendency to cause diziness, motion sickness, and so on, the lab has a variety of health-related safety plans and protocols in place.
+As virtual reality has a tendency to cause dizziness, motion sickness, and so on, the lab has a variety of health-related safety plans and protocols in place.
 
 ### Motion Sickness
 
@@ -54,11 +54,11 @@ Should someone become motion sick when in virtual reality, the following steps s
 
 Should someone vomit during VR: (see lab guidance in the room for now)
 
-There is always cold water available in the minifridge in the Sierra Vista lab and suckers are in one of the drawers by the cabinet.
+There is always cold water available in the minifridge in the Sierra Vista lab and suckers are in one of the drawers by the storage cabinet.
 
 ## Reserving Lab Equipment
 
-Reserving or checking out lab equipment should be done via our online lab inventory management system, [Bookkit by Clustermarket](https://www.clustermarket.com). This system is invite-only, so let the director know if you don't have access. Lab assistants, researchers, et cetera, are free to use lab equipment without reserving it, presuming they aren't precluding a reservation. Please keep in mind that lab equipment does need to be sterilized and recharged between uses and equipment that *is* checked out should be returned in the same fashion (with the exception of the rechargeable batteries; the lab will take care of those upon receipt).
+Reserving or checking out lab equipment should be done via our online lab inventory management system, [Bookkit by Clustermarket](https://www.clustermarket.com). This system is invite-only, so let the director know if you don't have access. Everyone needs to make a reservation in the system as a means for tracking what equipment is being used to what extent. Please keep in mind that lab equipment does need to be sterilized and recharged between uses and equipment that *is* checked out should be returned in the same fashion (with the exception of the rechargeable batteries; the lab will take care of those upon receipt).
 
 ## Requesting Lab Services
 

@@ -4,11 +4,17 @@ The **M**ixed **A**ugmented **V**i**R**tual e**X**tended (Reality) Laboratory (r
 
 It is our goal to apply this to bleeding-edge innovation in alternate reality spaces.
 
+```{r banner, echo=FALSE, out.width="100%", fig.cap="Official MAVRX Lab banner."}
+library(linguisticsdown)
+include_graphics2("images/CAST_Mixed-Augmented-Virtual-Extended-Reality-Lab_SCRIPT_TEMPLATE_2018_PRIMARY.png")
+```
+
+
 ## Identity {-}
 
 The lab's identity is determined by three basic concepts: its mission, vision, and values, but also of our dedication to praxis. Praxis as we refer to it can be defined as:
 
->the process by which a theory, lesson, or skill is enacted, embodied, or realized [and] the act of engaging, applying, exercising, realizing, or practicing ideas^[[Praxis (process) - Wikipedia](https://en.wikipedia.org/wiki/Praxis_(process))].
+>the process by which a theory, lesson, or skill is enacted, embodied, or realized [and] the act of engaging, applying, exercising, realizing, or practicing ideas^[[Praxis (process)](https://en.wikipedia.org/wiki/Praxis_(process))].
 
 
 ## Mission {-}
@@ -20,4 +26,6 @@ Manifested in the nexus of technology research, evidence-based pedagogy, and bou
 ## Values {-}
 The MA\{VR\}X Lab’s vision is one of transparency, openness, and optimism. At all possible times, we believe knowledge should be not just presented publicly but developed there, as well. We are humans. We make mistakes and we want to make them in public so others may learn. We make those on our way to create great things and help build a better future for everyone.
 
+## Code of Conduct {-}
 
+In addition to the University of Arizona [Student Code of Conduct](https://deanofstudents.arizona.edu/student-rights-responsibilities/student-code-conduct), the MA\{VR\} X Lab would like to emphasize that it is dedicated to providing a harassment-free experience for everyone, regardless of gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, or religion (or lack thereof). We do not tolerate harassment of lab members in any form. Sexual language and imagery is generally not appropriate for any lab venue, including lab meetings, presentations, or discussions.^[Adapted from [Lab Code of Conduct — DIB Lab 1.0 documentation](http://ivory.idyll.org/lab/coc.html).]

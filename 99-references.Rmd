@@ -1,6 +1,0 @@
-`r if (knitr:::is_html_output()) '
-# References {-}
-'`
-
-<!-- This creates the index in the book. Use \index{Term} throughout the document to add items here. -->
-\printindex

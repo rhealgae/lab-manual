@@ -1,0 +1,112 @@
+# Roles and Expectations {#roles}
+
+For detailed information on those working within/for the lab, visit the [MAVRX Lab's website](https://mavrxlab.org/people)^[If the content of the manual ever drifts into first-person, presume the speaking voice is the director.].
+
+The expectations and roles within the lab revolved around the [openness](#openness) that we strive for, so clarity and frankness are valuable. It is important to remember that the lab is a resource, and the main role within the lab--that of the director--is to assist others in the utilization of that resource^[This section is largely adapted from [the Peelle Lab Manual](https://github.com/jpeelle/peellelab_manual/blob/master/peellelab_manual.pdf).].
+
+Regardless of someone's role in the lab, there are expectations of professionalism, intellectual integrity, curiosity, and passion for praxis, the technology we explore, and the future we're creating.
+
+## Everyone
+
+Each person in the lab should adhere to a shared set of expectations.
+
+### Big Picture
+
+Generally, everyone should:
+
++ Push the envelope of applied scientific discovery and personal excellence.
++ Do work we are proud of individually and as a group.
++ Double-check our work, and be at least a _little_ obsessive.
++ Be supportive--we’re all in this together.
++ Be independent when possible, ask for help when necessary.
++ Communicate honestly, even when it’s difficult.
++ Share your knowledge. Mentorship takes many forms, but frequently involves looking out for those more junior.
++ Work towards proficiency in research production and knowledge distribution (not to mention R!).
++ Be patient, including with your PI. He will forget things you just talked about, and repeat some stories over and over. Organization and comprehensive note-taking is a great solution to his absent-mindedness.
++ Advocate for our own needs, including personal and career goals.
++ Respect each other’s strengths, weaknesses, differences, and beliefs.
++ If you move something, put it back.
++ **Charge all devices**.
++ Keep everything awesome.
+
+
+### Smaller Picture
+
+MA{VR}X Lab physical spaces are not *that* big (ironic, considering the infinite spaces and opportunities in extended reality), so please be thoughtful of others you're with and who will come later:
+
++ Do not come to the lab if you are sick. Period. If you are sick, DM your faculty advisor or the director to let me know you won’t be coming in. If appropriate, update your lab calendar to reflect the change.
++ Be considerate with the thermostat. Everyone has different preferences, so we all need to learn to compromise. In B158, the air handler is also *very* loud, which may come into play if we are recording something.
++ Do not leave food, drinks, or crumbs out in the lab. Please put food trash in another trash can (*not in the lab*!), especially late in the day or on Friday (so that food doesn’t stay in the lab over the weekend).
++ Lock the door if there is no one in the lab, even if you will only be gone for “a minute”.
++ Avoid wearing strong perfumes/colognes/et cetera in the lab (for the sake of your coworkers, lab visitors, and our participants).
++ Keep the lab neat—especially in the back of B158 in the VR boundary. Items left unattended may be discarded, reclaimed, or recycled.
++ Wear a mask until further notice.
+
+
+
+## Primary Investigator (Director)
+
+The PI (here referred to as the Director) of the lab is responsible for the day-to-day administration of the physical, digital, and logistical spaces. While responsibilities may be delegated--and often are--the director is ultimately responsible for ensuring the lab is functional and productive.
+
+Additionally, the director often serves in an advisory capacity for student research. This ranges from initial ideation to research project design to means of publication. That said, the director is not a "boss" of the lab; instead, they provide guidance at all levels, from the lab's research trajectory and agenda as a whole to advising on a project-by-project basis. 
+
+In addition to the list above, the director will^[The director has specific contractual requirements in addition to these expectations that are not listed here.]:
+
++ Have a vision of where the lab is going in the near and far terms.
++ Care about your happiness, well-being, and academic success.
++ Obtain--with the assistance of others, typically--funding to support the lab.
++ Support you in your career development, including writing letters of recommendation, introducuing you to others in the field, assisting in travel, and promoting your work as often as possible.
++ Support your personal growth by giving you flexibility and encouraging you to do things beyond just researching.
++ Occasionally bring goodies.
++ Make time to meet with you regularly, read through your lab-related manuscripts and research designs, and just generally chat.
++ Fuss over your text and graphic design.
+
+## Faculty Research Fellows
+
+While the lab does not have any *dedicated*^[Read: paid to be in the lab. While we do have a few univeristy staff "working" in the lab, they are *not* "the lab's." Their participation in the lab generally falls under "Other duties as assigned," and we cannot overstate our appreciation of their time and energy.] staff beyond the director, we do have a number of faculty, specifically, who engage with the lab regularly. They are expected to act as mentors and advisors, with an aim to be more-or-less director-like.
+
+## Graduate Research Fellows
+
+We also do not, at time of publishing, have any graduate students working in the lab. That said, should we, they will be expected to:
+
++ Know the literature related to their topic like the back of their hand.
++ Seek out and apply for fellowships and awards (including travel awards, et cetera).
++ Realize there are times for pulling all-nighters, and times for taking the headset off, leaving early, and spending time with loved ones.
+
+
+## Undergraduate Research Fellows
+
+Usually works directly under a faculty member or graduate student. The faculty need not be a member of the lab, but the director or a Faculty Research Fellow should be in the loop at all times. Regardless of how undergraduate students are engaging with the lab, they should:
+
+1. Be working on a particular project that has been discussed with the director and their faculty advisor.
+1. Ask around to see if they can help with anything.
+1. Spend time improving various lab-related skills (learning R or C#, studying Unity, et cetera).
+1. Spend time writing a blog post, updating or adding sections to the lab manual, and the like.
+
+Undergraduates will generally engage with the lab in one of the following capacities:
+
++ Volunteering
++ For-credit (independent study^[In the Applied Computing program, this is APCV 399, and can range from 1-3 credit hours] or capstone^[In the Applied Computing program, this is APCV 498: Senior Capstone. You will generally take this in your final semester in the program.])
++ Lab Assistants (paid work)
++ Honors^[In the Applied Computing program, this is APCV 498H: Honors Thesis.]
+
+### Volunteering
+
+Volunteering in the lab is generally formulated in a resources-for-time transaction. Students will be provided access to the lab's resources (computers, space, software, guidance, collaboration, et cetera) in return for helping the lab make progress toward its goal of research and knowledge production.
+
+That said, student volunteers are still expected to have a regular and consistent presence in the lab, adhering to the expectations of "Everyone" above. Volunteering in the lab does *not* mean a student can come and go as they please or ghost on projects because they got busy! Volunteering is still a serious commitment.
+
+
+### For-Credit
+
+Undergraduate research fellows engaging in a for-credit independent study or capstone should expect to end the semester in which they are receiving credit with an annotated bibliography of ~10 articles on the topic they've been studying and making a 15-20 minute presentation at a lab meeting sometime during the semester. This is the *minimum* requirement that is for the lab; depending on how you've enrolled, you may have additional requirements.
+
+### Lab Assistants
+
+Some students will be paid to "work in the lab," which could be anything from assisting in faculty research to lab maintenance to doing market research. While undergraduate research fellows may also be lab assistants, an overlap is not necessarily required or expected. These are generally funded by particular grants and thus will have specific project-related tasks and expectations.
+
+
+
+### Honors
+
+Honors Contracts and theses are relatively rare, so simply contact the director for more information on this.

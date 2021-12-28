@@ -9,7 +9,6 @@ The lab has its own email address: `MAVRX-Lab@arizona.edu` used for external com
 ## Discord {#discord}
 
 For virtually all lab-related chatting, announcements, and so on, we have a lab Discord server.
-\index{Discord}
 
 ## Social Media {#social}
 

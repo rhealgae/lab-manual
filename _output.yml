@@ -1,17 +1,19 @@
 bookdown::gitbook:
   css: style.css
+  split_by: section
   config:
     toc:
       before: |
         <li><a href="./">The MA{VR}X Lab Manual</a></li>
       after: |
         <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
-    edit: https://github.com/rstudio/bookdown-demo/edit/master/%s
+    edit: https://github.com/mavrxlab/lab-manual/edit/master/%s
     download: ["pdf", "epub"]
 bookdown::pdf_book:
   base_format: tufte::tufte_book
   includes:
     in_header: preamble.tex
+    after_body: index.tex
   latex_engine: xelatex
   citation_package: natbib
   keep_tex: yes

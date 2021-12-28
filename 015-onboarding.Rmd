@@ -1,0 +1,34 @@
+# Onboarding {#onboarding}
+
+Use this section as a step-by-step to get up to speed when you're new to the lab. This list is *not* suggested, but *required*!
+
+1. Complete our Onboarding Survey and provide your profile info to to the director.
+1. If you are paid by the university in any way, be sure to clarify your time reporting requirments with HR.
+1. Join the lab's Discord.
+1. Install the various software and sign up for the platforms we use in the lab:
+    1. Git and GitHub (or Git Kraken; follow the Git chapter instructions to get your free education upgrade. Request to join the lab's GitHub organization: https://github.com/mavrxlab/
+    1. Create accounts for OSF, Protocols.io, and Clustermarket
+    1. Install R and RStudio on your machine.
+    1. Install Zotero.
+    1. Sign up for your [Adobe Creative Cloud](https://adobe.arizona.edu/signup/adobe-creative-cloud) access.
+1. [CITI Program training](https://www.citiprogram.org/?pageID=668)
+    1. Select `Log In Through My Organization`, search for `University of Arizona`, sign in with your NetID.
+    1. Find the `Group 2: Social & Behavioral Research Investigators` course and complete it.
+    1. Send a copy of your Completion Record to the director and copy your advisor.
+1. 
+
+## Baseline Reading List
+
+While the lab covers a wide, wide range of research topics, we have established a reading list to provide everyone with the same basic foundation of knowledge. The exact topics listed below may not apply to the precise topic you're interested in but you should still endeavor to read it all.^[The "Ten Simple Rules" article list is gleaned from [gzahn/Lab_Manual: Lab manual for Zahn Lab at UVU](https://github.com/gzahn/Lab_Manual#09-reading-list).] This list is ever-growing and if you wish to add to it, simply create a pull request.
+
+These are meta-reads, basically, that focus on "doing" research and sharing the resultant knowledge. 
+
++ Bourne, P. E. (2007). Ten Simple Rules for Making Good Oral Presentations.*PLoS Comput Biol, 3*(4), e77. https://doi.org/10.1371/journal.pcbi.0030077
++ Bourne, P. E., & Chalupa, L. M. (2006). Ten Simple Rules for Getting Grants. *PLoS Comput Biol, 2*(2), e12. https://doi.org/10.1371/journal.pcbi.0020012
++ Edmund Hart, Pauline Barmby, David LeBauer, François Michonneau, Sarah Mount, Patrick Mulrooney, … Jeffrey W Hollister. (2016). Ten simple rules for digital data storage. https://doi.org/10.7287/peerj.preprints.1448v2
++ Erren, T. C., & Bourne, P. E. (2007). Ten Simple Rules for a Good Poster Presentation. *PLoS Comput Biol, 3*(5), e102. https://doi.org/10.1371/journal.pcbi.0030102
++ Kording, K. P., & Mensh, B. (2016). Ten simple rules for structuring papers. BioRxiv, 088278. https://doi.org/10.1101/088278
++ Rougier, N. P., Droettboom, M., & Bourne, P. E. (2014). Ten Simple Rules for Better Figures. *PLOS Computational Biology, 10*(9), e1003833. https://doi.org/10.1371/journal.pcbi.1003833
++ Vicens, Q., & Bourne, P. E. (2007). Ten Simple Rules for a Successful Collaboration. *PLoS Comput Biol, 3*(3), e44. https://doi.org/10.1371/journal.pcbi.0030044
++ Weinberger, C. J., Evans, J. A., & Allesina, S. (2015). Ten Simple (Empirical) Rules for Writing Science. *PLoS Comput Biol, 11*(4), e1004205. https://doi.org/10.1371/journal.pcbi.1004205
+

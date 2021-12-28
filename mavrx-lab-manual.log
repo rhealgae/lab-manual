@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.12.24)  24 DEC 2021 23:24
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.12.24)  28 DEC 2021 10:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -611,87 +611,87 @@ Writing index file mavrx-lab-manual.idx
 (./mavrx-lab-manual.aux)
 \openout1 = `mavrx-lab-manual.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 130.
-LaTeX Font Info:    ... okay on input line 130.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 130.
-LaTeX Font Info:    ... okay on input line 130.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 130.
-LaTeX Font Info:    ... okay on input line 130.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 130.
-LaTeX Font Info:    ... okay on input line 130.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 130.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 130.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 131.
+LaTeX Font Info:    ... okay on input line 131.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 131.
+LaTeX Font Info:    ... okay on input line 131.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 131.
+LaTeX Font Info:    ... okay on input line 131.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 131.
+LaTeX Font Info:    ... okay on input line 131.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 131.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 131.
 (c:/Users/RS/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 130.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 130.
-LaTeX Font Info:    ... okay on input line 130.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 130.
-LaTeX Font Info:    ... okay on input line 130.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 130.
-LaTeX Font Info:    ... okay on input line 130.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 130.
-LaTeX Font Info:    ... okay on input line 130.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 130.
-LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    ... okay on input line 131.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 131.
+LaTeX Font Info:    ... okay on input line 131.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 131.
+LaTeX Font Info:    ... okay on input line 131.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 131.
+LaTeX Font Info:    ... okay on input line 131.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 131.
+LaTeX Font Info:    ... okay on input line 131.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 131.
+LaTeX Font Info:    ... okay on input line 131.
 
 Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
 (fontspec)             this).
 
 \symlegacymaths=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 130.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 130.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 130.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 130.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 130.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 130.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 130.
-LaTeX Font Info:    Redeclaring math accent \check on input line 130.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 130.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 130.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 130.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 130.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 130.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 130.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 130.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 130.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 130.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 130.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 130.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 130.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 130.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 130.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 130.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 130.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 131.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 131.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 131.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 131.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 131.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 131.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 131.
+LaTeX Font Info:    Redeclaring math accent \check on input line 131.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 131.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 131.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 131.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 131.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 131.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 131.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 131.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 131.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 131.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 131.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 131.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 131.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 131.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 131.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 131.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 131.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 130.
+(Font)              `operators' in the math version `normal' on input line 131.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 130.
+(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 131.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 130.
+(Font)              `operators' in the math version `bold' on input line 131.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 130.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 131.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 130.
+(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 131.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 130.
+(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 131.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 130.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 131.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 130.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 131.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 130.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 131.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 130.
+(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 131.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 130.
+(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 131.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 130.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 131.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 130.
-Package hyperref Info: Link coloring OFF on input line 130.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 131.
+Package hyperref Info: Link coloring OFF on input line 131.
 (c:/Users/RS/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 (c:/Users/RS/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/refcount/refcount.sty
@@ -701,9 +701,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count333
 )
-LaTeX Info: Redefining \ref on input line 130.
-LaTeX Info: Redefining \pageref on input line 130.
-LaTeX Info: Redefining \nameref on input line 130.
+LaTeX Info: Redefining \ref on input line 131.
+LaTeX Info: Redefining \pageref on input line 131.
+LaTeX Info: Redefining \nameref on input line 131.
 (./mavrx-lab-manual.out) (./mavrx-lab-manual.out)
 \@outlinefile=\write5
 \openout5 = `mavrx-lab-manual.out'.
@@ -745,15 +745,15 @@ LaTeX Info: Redefining \nameref on input line 130.
 \langwohyphens=\language3
 
 Class tufte-book Warning: Proper spacing of ALL-CAPS letters has not been set up.
-This message occurred on input line 132.
+This message occurred on input line 133.
 
 
 Class tufte-book Warning: Proper spacing of ALL-CAPS letters has not been set up.
-This message occurred on input line 132.
+This message occurred on input line 133.
 
 
 Class tufte-book Warning: Proper spacing of ALL-CAPS letters has not been set up.
-This message occurred on input line 132.
+This message occurred on input line 133.
 
 [1
 
@@ -764,7 +764,7 @@ This message occurred on input line 132.
 ] (./mavrx-lab-manual.toc [3]
 
 Class tufte-book Warning: Proper spacing of small-caps letters has not been set up.
-This message occurred on input line 54.
+This message occurred on input line 64.
 
 [4])
 \tf@toc=\write6
@@ -772,7 +772,7 @@ This message occurred on input line 54.
 
 
 Class tufte-book Warning: Proper spacing of small-caps letters has not been set up.
-This message occurred on input line 141.
+This message occurred on input line 142.
 
 [5] [6
 
@@ -789,11 +789,13 @@ This message occurred on input line 141.
 [9] [10
 
 ]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 152.
+File: images/square-solid.jpg Graphic file (type bmp)
+<images/square-solid.jpg>
+LaTeX Font Info:    Trying to load font information for U+msa on input line 155.
 (c:/Users/RS/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 152.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 155.
 (c:/Users/RS/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
@@ -802,178 +804,310 @@ LaTeX Warning: Marginpar on page 11 moved.
 
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 156.
-
-[11] [12
-
-]
-
-Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 176.
+(hyperref)                be the same. Added a new anchor on input line 159.
 
 
-LaTeX Warning: Marginpar on page 13 moved.
+Underfull \vbox (badness 1127) has occurred while \output is active []
 
-[13]
+[11]
+Overfull \hbox (60.75pt too wide) in paragraph at lines 200--200
+[]\TU/lmtt/m/n/10 ## [1] stats     graphics  grDevices utils     datasets  methods   base[] 
+ []
+
+
+Overfull \hbox (50.25pt too wide) in paragraph at lines 200--200
+[]\TU/lmtt/m/n/10 ##  [1] compiler_4.1.2  magrittr_2.0.1  fastmap_1.1.0   bookdown_0.24[] 
+ []
+
+
+Overfull \hbox (34.5pt too wide) in paragraph at lines 200--200
+[]\TU/lmtt/m/n/10 ##  [5] htmltools_0.5.2 tools_4.1.2     rstudioapi_0.13 yaml_2.2.1[] 
+ []
+
+
+Overfull \hbox (50.25pt too wide) in paragraph at lines 200--200
+[]\TU/lmtt/m/n/10 ##  [9] stringi_1.7.6   rmarkdown_2.11  knitr_1.36      stringr_1.4.0[] 
+ []
+
+
+Overfull \hbox (50.25pt too wide) in paragraph at lines 200--200
+[]\TU/lmtt/m/n/10 ## [13] digest_0.6.29   xfun_0.28       rlang_0.4.12    evaluate_0.14[] 
+ []
+
 
 Class tufte-book Warning: Proper spacing of small-caps letters has not been set up.
-This message occurred on input line 203.
+This message occurred on input line 207.
 
-[14]
-Chapter 1.
+[12]
+
+Class tufte-book Warning: Proper spacing of small-caps letters has not been set up.
+This message occurred on input line 214.
+
+[13] [14
+
+]
+File: images/CAST_Mixed-Augmented-Virtual-Extended-Reality-Lab_SCRIPT_TEMPLATE_2018_PRIMARY.png Graphic file (type bmp)
+<images/CAST_Mixed-Augmented-Virtual-Extended-Reality-Lab_SCRIPT_TEMPLATE_2018_PRIMARY.png>
+
+Underfull \hbox (badness 10000) in paragraph at lines 222--223
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 222--223
+
+ []
+
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 227.
+
 
 LaTeX Warning: Marginpar on page 15 moved.
 
-[15
+[15]
+
+LaTeX Warning: Marginpar on page 16 moved.
+
+
+Class tufte-book Warning: Proper spacing of small-caps letters has not been set up.
+This message occurred on input line 260.
+
+[16]
+Chapter 1.
+
+LaTeX Warning: Marginpar on page 17 moved.
+
+
+LaTeX Warning: Marginpar on page 17 moved.
+
+[17
 
 ]
 
 Class tufte-book Warning: Proper spacing of small-caps letters has not been set up.
-This message occurred on input line 246.
+This message occurred on input line 339.
 
-[16]
+[18]
+
+LaTeX Warning: Marginpar on page 19 moved.
+
+
+LaTeX Warning: Marginpar on page 19 moved.
+
+
+Class tufte-book Warning: Proper spacing of small-caps letters has not been set up.
+This message occurred on input line 393.
+
+[19]
+
+LaTeX Warning: Marginpar on page 20 moved.
+
+
+LaTeX Warning: Marginpar on page 20 moved.
+
+
+LaTeX Warning: Marginpar on page 20 moved.
+
+
+LaTeX Warning: Marginpar on page 20 moved.
+
+
+LaTeX Warning: Marginpar on page 20 moved.
+
+
+Class tufte-book Warning: Proper spacing of small-caps letters has not been set up.
+This message occurred on input line 437.
+
+[20]
+
+Class tufte-book Warning: Proper spacing of small-caps letters has not been set up.
+This message occurred on input line 437.
+
+[21] [22
+
+]
 Chapter 2.
-[17
 
-] [18
+Overfull \hbox (4.43001pt too wide) in paragraph at lines 474--476
+[]\TU/lmr/m/n/10 Select \TU/lmtt/m/n/10 Log In Through My Organization\TU/lmr/m/n/10 , search for \TU/lmtt/m/n/10 University 
+ []
 
-]
+
+Overfull \hbox (22.51001pt too wide) in paragraph at lines 476--478
+[]\TU/lmr/m/n/10 Find the \TU/lmtt/m/n/10 Group 2: Social & Behavioral Research Investigators 
+ []
+
+[23]
+
+LaTeX Warning: Marginpar on page 24 moved.
+
+
+Class tufte-book Warning: Proper spacing of small-caps letters has not been set up.
+This message occurred on input line 511.
+
+[24]
 Chapter 3.
-[19] [20
+
+LaTeX Warning: Marginpar on page 25 moved.
+
+File: images/azcast_building.jpg Graphic file (type bmp)
+<images/azcast_building.jpg>
+[25
 
 ]
+File: images/yuma_building.jpeg Graphic file (type bmp)
+<images/yuma_building.jpeg>
+
+Class tufte-book Warning: Proper spacing of small-caps letters has not been set up.
+This message occurred on input line 568.
+
+[26]
 Chapter 4.
+[27
 
-LaTeX Warning: Marginpar on page 21 moved.
+] [28
+
+]
+Chapter 5.
+
+LaTeX Warning: Marginpar on page 29 moved.
 
 
-Overfull \hbox (14.68001pt too wide) in paragraph at lines 344--345
+Overfull \hbox (14.68001pt too wide) in paragraph at lines 635--636
 []\TU/lmr/m/n/10 meeting-notes[] repo, along with instructions on how to add/update/correct 
  []
 
-[21]
+[29]
 LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <10> not available
-(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 380.
+(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 671.
 
 Class tufte-book Warning: Proper spacing of small-caps letters has not been set up.
-This message occurred on input line 400.
+This message occurred on input line 691.
 
-[22]
-Chapter 5.
-[23
-
-]
-
-Class tufte-book Warning: Proper spacing of small-caps letters has not been set up.
-This message occurred on input line 484.
-
-[24]
-
-Class tufte-book Warning: Proper spacing of small-caps letters has not been set up.
-This message occurred on input line 496.
-
-[25] [26
-
-]
+[30]
 Chapter 6.
+[31
+
+]
+
+LaTeX Warning: Marginpar on page 32 moved.
+
+
+Overfull \hbox (100.16002pt too wide) in paragraph at lines 747--748
+[]\TU/lmr/m/n/10 You’ll want to name your files like \TU/lmtt/m/n/10 YYYY_MM_DD-Project_name-Sub_identifier-Slug.ext 
+ []
+
+
+LaTeX Warning: Marginpar on page 32 moved.
+
+
+Class tufte-book Warning: Proper spacing of small-caps letters has not been set up.
+This message occurred on input line 780.
+
+[32]
+
+Class tufte-book Warning: Proper spacing of small-caps letters has not been set up.
+This message occurred on input line 787.
+
+[33] [34
+
+]
+Chapter 7.
 File: images/icon_circle_M4M_text.png Graphic file (type bmp)
 <images/icon_circle_M4M_text.png>
 File: images/icon_circle_FIP_text.png Graphic file (type bmp)
 <images/icon_circle_FIP_text.png>
 File: images/icon_circle_FDP_text.png Graphic file (type bmp)
 <images/icon_circle_FDP_text.png>
-[27]
+[35]
 
 Class tufte-book Warning: Proper spacing of small-caps letters has not been set up.
-This message occurred on input line 577.
+This message occurred on input line 868.
 
-[28]
-
-Class tufte-book Warning: Proper spacing of small-caps letters has not been set up.
-This message occurred on input line 630.
-
-[29]
+[36]
 
 Class tufte-book Warning: Proper spacing of small-caps letters has not been set up.
-This message occurred on input line 680.
+This message occurred on input line 921.
 
-[30]
+[37]
 
 Class tufte-book Warning: Proper spacing of small-caps letters has not been set up.
-This message occurred on input line 690.
+This message occurred on input line 971.
 
-[31] [32
+[38]
+
+Class tufte-book Warning: Proper spacing of small-caps letters has not been set up.
+This message occurred on input line 981.
+
+[39] [40
 
 ]
 Appendix A.
-[33]
+[41]
 Underfull \vbox (badness 1342) has occurred while \output is active []
 
 
 Class tufte-book Warning: Proper spacing of small-caps letters has not been set up.
-This message occurred on input line 764.
+This message occurred on input line 1055.
 
-[34]
+[42]
 
-LaTeX Warning: Marginpar on page 35 moved.
-
-
-LaTeX Warning: Marginpar on page 35 moved.
+LaTeX Warning: Marginpar on page 43 moved.
 
 
-LaTeX Warning: Marginpar on page 35 moved.
+LaTeX Warning: Marginpar on page 43 moved.
+
+
+LaTeX Warning: Marginpar on page 43 moved.
 
 
 Class tufte-book Warning: Proper spacing of small-caps letters has not been set up.
-This message occurred on input line 783.
+This message occurred on input line 1074.
 
-[35]
+[43]
 
-LaTeX Warning: Marginpar on page 36 moved.
-
-
-LaTeX Warning: Marginpar on page 36 moved.
+LaTeX Warning: Marginpar on page 44 moved.
 
 
-LaTeX Warning: Marginpar on page 36 moved.
+LaTeX Warning: Marginpar on page 44 moved.
 
 
-Overfull \hbox (17.82002pt too wide) in paragraph at lines 811--812
+LaTeX Warning: Marginpar on page 44 moved.
+
+
+Overfull \hbox (17.82002pt too wide) in paragraph at lines 1102--1103
 [][]\TU/lmr/m/n/10 OSF | Replication Recipe (Brandt et al., 2013) Pre-Registration.docx[]  
  []
 
 
 Class tufte-book Warning: Proper spacing of small-caps letters has not been set up.
-This message occurred on input line 821.
+This message occurred on input line 1112.
 
-[36]
+[44]
 
 Class tufte-book Warning: Proper spacing of small-caps letters has not been set up.
-This message occurred on input line 825.
+This message occurred on input line 1116.
 
-[37] [38
+[45] [46
 
 ]
 Appendix B.
-(./mavrx-lab-manual.ind [39] [40
+(./mavrx-lab-manual.bbl [47] [48
 
 ]
 Appendix C.
-) (./mavrx-lab-manual.bbl [41] [42
-
-]
-Appendix D.
-) [43] (./mavrx-lab-manual.aux)
+) (./mavrx-lab-manual.ind) [49] (./mavrx-lab-manual.aux)
 Package rerunfilecheck Info: File `mavrx-lab-manual.out' has not changed.
-(rerunfilecheck)             Checksum: B3AA7F422F34AADC7BEBF2F87A3CDD28;5905.
+(rerunfilecheck)             Checksum: FE35458886CFF2010448099FF402A686;6829.
  ) 
 Here is how much of TeX's memory you used:
- 16888 strings out of 478256
- 321343 string characters out of 5854708
- 694344 words of memory out of 5000000
- 37067 multiletter control sequences out of 15000+600000
- 411972 words of font info for 84 fonts, out of 8000000 for 9000
+ 16971 strings out of 478256
+ 324490 string characters out of 5854708
+ 699930 words of memory out of 5000000
+ 37139 multiletter control sequences out of 15000+600000
+ 411988 words of font info for 86 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  108i,11n,108p,908b,568s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on mavrx-lab-manual.pdf (43 pages).
+Output written on mavrx-lab-manual.pdf (49 pages).

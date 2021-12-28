@@ -115,7 +115,7 @@
 % title / author / date
 \title{MA\{VR\}X Lab Manual}
 \author{Dr.~Ryan Straight}
-\date{2021-12-24}
+\date{2021-12-28}
 
 \usepackage{booktabs}
 \usepackage{amsthm}
@@ -125,7 +125,8 @@
   \thm@postskip=\thm@preskip
 }
 \makeatother
-\usepackage{makeidx} \makeindex
+\usepackage{makeidx}
+\makeindex
 
 \begin{document}
 
@@ -147,6 +148,8 @@
 
 \textbf{THIS IS A WORK IN PROGRESS! Until stated otherwise, the content of this book should be considered unofficial and in an active draft stage.}
 
+\begin{center}\href{https://mavrxlab.org}{\includegraphics{images/square-solid} }\end{center}
+
 This manual was created using the \textbf{bookdown} package \citep{R-bookdown}, which was built on top of R Markdown and \textbf{knitr} \citep{xie2015}. The PDF uses the Tufte package \citep{xieTufteTufteStyles2021}.
 
 The contents of this manual are heavily influenced\footnote{read: stolen, but with permission} by John Paul Minda and Emily Nielsen's \emph{Lab Manual} \citeyearpar{Minda_Nielsen_2018}.
@@ -163,6 +166,50 @@ This manual is licensed under the \href{http://creativecommons.org/licenses/by-n
 
 This manual should be considered a comprehensive living document aimed at presenting a unified understanding of how the lab works and what it should become.
 
+\hypertarget{session-information}{%
+\section*{Session Information}\label{session-information}}
+\addcontentsline{toc}{section}{Session Information}
+
+As this book is written using the \texttt{bookdown} package, here is the R session information from when the book was last compiled on 2021-12-28:
+
+\begin{verbatim}
+## R version 4.1.2 (2021-11-01)
+## Platform: x86_64-w64-mingw32/x64 (64-bit)
+## Running under: Windows 10 x64 (build 22000)
+## 
+## Matrix products: default
+## 
+## locale:
+## [1] LC_COLLATE=English_United States.1252 
+## [2] LC_CTYPE=English_United States.1252   
+## [3] LC_MONETARY=English_United States.1252
+## [4] LC_NUMERIC=C                          
+## [5] LC_TIME=English_United States.1252    
+## 
+## attached base packages:
+## [1] stats     graphics  grDevices utils     datasets  methods   base     
+## 
+## other attached packages:
+## [1] tufte_0.11
+## 
+## loaded via a namespace (and not attached):
+##  [1] compiler_4.1.2  magrittr_2.0.1  fastmap_1.1.0   bookdown_0.24  
+##  [5] htmltools_0.5.2 tools_4.1.2     rstudioapi_0.13 yaml_2.2.1     
+##  [9] stringi_1.7.6   rmarkdown_2.11  knitr_1.36      stringr_1.4.0  
+## [13] digest_0.6.29   xfun_0.28       rlang_0.4.12    evaluate_0.14
+\end{verbatim}
+
+\hypertarget{acknowledgements}{%
+\section*{Acknowledgements}\label{acknowledgements}}
+\addcontentsline{toc}{section}{Acknowledgements}
+
+Many thanks to the people who supported the idea of the lab, have donated their blood, sweat, and tears to get it off the ground, to the colleagues and collaborators that make it work, to those that came before, and to those still to come.
+
+Dr.~Ryan Straight
+Assistant Professor of Practice in Applied Computing and Cyber Operations
+Director, MA\{VR\}X Lab
+Tucson, AZ
+
 \hypertarget{about-the-mavrx-lab}{%
 \chapter*{About the MA\{VR\}X Lab}\label{about-the-mavrx-lab}}
 \addcontentsline{toc}{chapter}{About the MA\{VR\}X Lab}
@@ -171,6 +218,10 @@ The \textbf{M}ixed \textbf{A}ugmented \textbf{V}i\textbf{R}tual e\textbf{X}tende
 
 It is our goal to apply this to bleeding-edge innovation in alternate reality spaces.
 
+\begin{figure}
+\includegraphics[width=1\linewidth]{images/CAST_Mixed-Augmented-Virtual-Extended-Reality-Lab_SCRIPT_TEMPLATE_2018_PRIMARY} \caption[Official MAVRX Lab banner]{Official MAVRX Lab banner.}\label{fig:banner}
+\end{figure}
+
 \hypertarget{identity}{%
 \section*{Identity}\label{identity}}
 \addcontentsline{toc}{section}{Identity}
@@ -178,7 +229,7 @@ It is our goal to apply this to bleeding-edge innovation in alternate reality sp
 The lab's identity is determined by three basic concepts: its mission, vision, and values, but also of our dedication to praxis. Praxis as we refer to it can be defined as:
 
 \begin{quote}
-the process by which a theory, lesson, or skill is enacted, embodied, or realized {[}and{]} the act of engaging, applying, exercising, realizing, or practicing ideas\footnote{\href{https://en.wikipedia.org/wiki/Praxis_(process)}{Praxis (process) - Wikipedia}}.
+the process by which a theory, lesson, or skill is enacted, embodied, or realized {[}and{]} the act of engaging, applying, exercising, realizing, or practicing ideas\footnote{\href{https://en.wikipedia.org/wiki/Praxis_(process)}{Praxis (process)}}.
 \end{quote}
 
 \hypertarget{mission}{%
@@ -199,73 +250,314 @@ Manifested in the nexus of technology research, evidence-based pedagogy, and bou
 
 The MA\{VR\}X Lab's vision is one of transparency, openness, and optimism. At all possible times, we believe knowledge should be not just presented publicly but developed there, as well. We are humans. We make mistakes and we want to make them in public so others may learn. We make those on our way to create great things and help build a better future for everyone.
 
-\hypertarget{people}{%
-\chapter{People and Roles}\label{people}}
+\hypertarget{code-of-conduct}{%
+\section*{Code of Conduct}\label{code-of-conduct}}
+\addcontentsline{toc}{section}{Code of Conduct}
 
-For detailed in formation on those working within/for the lab, visit the \href{https://mavrxlab.org/people}{MAVRX Lab's website}\footnote{If the content of the lab ever drifts into first-person, presume the speaking voice is the director.}.
+In addition to the University of Arizona \href{https://deanofstudents.arizona.edu/student-rights-responsibilities/student-code-conduct}{Student Code of Conduct}, the MA\{VR\} X Lab would like to emphasize that it is dedicated to providing a harassment-free experience for everyone, regardless of gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, or religion (or lack thereof). We do not tolerate harassment of lab members in any form. Sexual language and imagery is generally not appropriate for any lab venue, including lab meetings, presentations, or discussions.\footnote{Adapted from \href{http://ivory.idyll.org/lab/coc.html}{Lab Code of Conduct --- DIB Lab 1.0 documentation}.}
 
-The expectations and roles within the lab revolved around the \protect\hyperlink{openness}{openness} that we strive for, so clarity and frankness are valuable. It is important to remember that the lab is a resource, and the main role within the lab--that of the director--is to assist others in the utilization of that resource.
+\hypertarget{roles}{%
+\chapter{Roles and Expectations}\label{roles}}
 
-\hypertarget{director}{%
-\section{Director}\label{director}}
+For detailed information on those working within/for the lab, visit the \href{https://mavrxlab.org/people}{MAVRX Lab's website}\footnote{If the content of the manual ever drifts into first-person, presume the speaking voice is the director.}.
 
-The director of the lab is responsible for the day-to-day administration of the physical, digital, and logistical spaces. While responsibilities may be delegated--and often are--the director is ultimately responsible for ensuring the lab is functional and productive.
+The expectations and roles within the lab revolved around the \protect\hyperlink{openness}{openness} that we strive for, so clarity and frankness are valuable. It is important to remember that the lab is a resource, and the main role within the lab--that of the director--is to assist others in the utilization of that resource\footnote{This section is largely adapted from \href{https://github.com/jpeelle/peellelab_manual/blob/master/peellelab_manual.pdf}{the Peelle Lab Manual}.}.
+
+Regardless of someone's role in the lab, there are expectations of professionalism, intellectual integrity, curiosity, and passion for praxis, the technology we explore, and the future we're creating.
+
+\hypertarget{everyone}{%
+\section{Everyone}\label{everyone}}
+
+Each person in the lab should adhere to a shared set of expectations.
+
+\hypertarget{big-picture}{%
+\subsection{Big Picture}\label{big-picture}}
+
+Generally, everyone should:
+
+\begin{itemize}
+\tightlist
+\item
+  Push the envelope of applied scientific discovery and personal excellence.
+\item
+  Do work we are proud of individually and as a group.
+\item
+  Double-check our work, and be at least a \emph{little} obsessive.
+\item
+  Be supportive--we're all in this together.
+\item
+  Be independent when possible, ask for help when necessary.
+\item
+  Communicate honestly, even when it's difficult.
+\item
+  Share your knowledge. Mentorship takes many forms, but frequently involves looking out for those more junior.
+\item
+  Work towards proficiency in research production and knowledge distribution (not to mention R!).
+\item
+  Be patient, including with your PI. He will forget things you just talked about, and repeat some stories over and over. Organization and comprehensive note-taking is a great solution to his absent-mindedness.
+\item
+  Advocate for our own needs, including personal and career goals.
+\item
+  Respect each other's strengths, weaknesses, differences, and beliefs.
+\item
+  If you move something, put it back.
+\item
+  \textbf{Charge all devices}.
+\item
+  Keep everything awesome.
+\end{itemize}
+
+\hypertarget{smaller-picture}{%
+\subsection{Smaller Picture}\label{smaller-picture}}
+
+MA\{VR\}X Lab physical spaces are not \emph{that} big (ironic, considering the infinite spaces and opportunities in extended reality), so please be thoughtful of others you're with and who will come later:
+
+\begin{itemize}
+\tightlist
+\item
+  Do not come to the lab if you are sick. Period. If you are sick, DM your faculty advisor or the director to let me know you won't be coming in. If appropriate, update your lab calendar to reflect the change.
+\item
+  Be considerate with the thermostat. Everyone has different preferences, so we all need to learn to compromise. In B158, the air handler is also \emph{very} loud, which may come into play if we are recording something.
+\item
+  Do not leave food, drinks, or crumbs out in the lab. Please put food trash in another trash can (\emph{not in the lab}!), especially late in the day or on Friday (so that food doesn't stay in the lab over the weekend).
+\item
+  Lock the door if there is no one in the lab, even if you will only be gone for ``a minute''.
+\item
+  Avoid wearing strong perfumes/colognes/et cetera in the lab (for the sake of your coworkers, lab visitors, and our participants).
+\item
+  Keep the lab neat---especially in the back of B158 in the VR boundary. Items left unattended may be discarded, reclaimed, or recycled.
+\item
+  Wear a mask until further notice.
+\end{itemize}
+
+\hypertarget{primary-investigator-director}{%
+\section{Primary Investigator (Director)}\label{primary-investigator-director}}
+
+The PI (here referred to as the Director) of the lab is responsible for the day-to-day administration of the physical, digital, and logistical spaces. While responsibilities may be delegated--and often are--the director is ultimately responsible for ensuring the lab is functional and productive.
 
 Additionally, the director often serves in an advisory capacity for student research. This ranges from initial ideation to research project design to means of publication. That said, the director is not a ``boss'' of the lab; instead, they provide guidance at all levels, from the lab's research trajectory and agenda as a whole to advising on a project-by-project basis.
+
+In addition to the list above, the director will\footnote{The director has specific contractual requirements in addition to these expectations that are not listed here.}:
+
+\begin{itemize}
+\tightlist
+\item
+  Have a vision of where the lab is going in the near and far terms.
+\item
+  Care about your happiness, well-being, and academic success.
+\item
+  Obtain--with the assistance of others, typically--funding to support the lab.
+\item
+  Support you in your career development, including writing letters of recommendation, introducuing you to others in the field, assisting in travel, and promoting your work as often as possible.
+\item
+  Support your personal growth by giving you flexibility and encouraging you to do things beyond just researching.
+\item
+  Occasionally bring goodies.
+\item
+  Make time to meet with you regularly, read through your lab-related manuscripts and research designs, and just generally chat.
+\item
+  Fuss over your text and graphic design.
+\end{itemize}
 
 \hypertarget{faculty-research-fellows}{%
 \section{Faculty Research Fellows}\label{faculty-research-fellows}}
 
-\ldots{}
+While the lab does not have any \emph{dedicated}\footnote{Read: paid to be in the lab. While we do have a few univeristy staff ``working'' in the lab, they are \emph{not} ``the lab's.'' Their participation in the lab generally falls under ``Other duties as assigned,'' and we cannot overstate our appreciation of their time and energy.} staff beyond the director, we do have a number of faculty, specifically, who engage with the lab regularly. They are expected to act as mentors and advisors, with an aim to be more-or-less director-like.
+
+\hypertarget{graduate-research-fellows}{%
+\section{Graduate Research Fellows}\label{graduate-research-fellows}}
+
+We also do not, at time of publishing, have any graduate students working in the lab. That said, should we, they will be expected to:
+
+\begin{itemize}
+\tightlist
+\item
+  Know the literature related to their topic like the back of their hand.
+\item
+  Seek out and apply for fellowships and awards (including travel awards, et cetera).
+\item
+  Realize there are times for pulling all-nighters, and times for taking the headset off, leaving early, and spending time with loved ones.
+\end{itemize}
 
 \hypertarget{undergraduate-research-fellows}{%
 \section{Undergraduate Research Fellows}\label{undergraduate-research-fellows}}
 
-Usually works directly under a faculty member or graduate student. The faculty need not be a member of the lab, but the director or a Faculty Research Fellow should be in the loop at all times.
+Usually works directly under a faculty member or graduate student. The faculty need not be a member of the lab, but the director or a Faculty Research Fellow should be in the loop at all times. Regardless of how undergraduate students are engaging with the lab, they should:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Be working on a particular project that has been discussed with the director and their faculty advisor.
+\item
+  Ask around to see if they can help with anything.
+\item
+  Spend time improving various lab-related skills (learning R or C\#, studying Unity, et cetera).
+\item
+  Spend time writing a blog post, updating or adding sections to the lab manual, and the like.
+\end{enumerate}
+
+Undergraduates will generally engage with the lab in one of the following capacities:
 
 \begin{itemize}
 \tightlist
 \item
-  Stipend?
+  Volunteering
 \item
-  Volunteer
+  For-credit (independent study\footnote{In the Applied Computing program, this is APCV 399, and can range from 1-3 credit hours} or capstone\footnote{In the Applied Computing program, this is APCV 498: Senior Capstone. You will generally take this in your final semester in the program.})
 \item
-  For-credit (preceptorship or independent study)
+  Lab Assistants (paid work)
 \item
-  Honors?
+  Honors\footnote{In the Applied Computing program, this is APCV 498H: Honors Thesis.}
 \end{itemize}
 
+\hypertarget{volunteering}{%
+\subsection{Volunteering}\label{volunteering}}
+
+Volunteering in the lab is generally formulated in a resources-for-time transaction. Students will be provided access to the lab's resources (computers, space, software, guidance, collaboration, et cetera) in return for helping the lab make progress toward its goal of research and knowledge production.
+
+That said, student volunteers are still expected to have a regular and consistent presence in the lab, adhering to the expectations of ``Everyone'' above. Volunteering in the lab does \emph{not} mean a student can come and go as they please or ghost on projects because they got busy! Volunteering is still a serious commitment.
+
+\hypertarget{for-credit}{%
+\subsection{For-Credit}\label{for-credit}}
+
+Undergraduate research fellows engaging in a for-credit independent study or capstone should expect to end the semester in which they are receiving credit with an annotated bibliography of \textasciitilde10 articles on the topic they've been studying and making a 15-20 minute presentation at a lab meeting sometime during the semester. This is the \emph{minimum} requirement that is for the lab; depending on how you've enrolled, you may have additional requirements.
+
 \hypertarget{lab-assistants}{%
-\section{Lab Assistants}\label{lab-assistants}}
+\subsection{Lab Assistants}\label{lab-assistants}}
 
-Some students will be paid to ``work in the lab,'' which could be anything from assisting in faculty research to lab maintenance to doing market research. While undergraduate research fellows may also be lab assistants, an overlap is not necessarily required or expected.
+Some students will be paid to ``work in the lab,'' which could be anything from assisting in faculty research to lab maintenance to doing market research. While undergraduate research fellows may also be lab assistants, an overlap is not necessarily required or expected. These are generally funded by particular grants and thus will have specific project-related tasks and expectations.
 
-Regardless of someone's role in the lab, there are expectations of professionalism, intellectual integrity, curiosity, and passion for praxis, the technology we explore, and the future we're creating.
+\hypertarget{honors}{%
+\subsection{Honors}\label{honors}}
+
+Honors Contracts and theses are relatively rare, so simply contact the director for more information on this.
+
+\hypertarget{onboarding}{%
+\chapter{Onboarding}\label{onboarding}}
+
+Use this section as a step-by-step to get up to speed when you're new to the lab. This list is \emph{not} suggested, but \emph{required}!
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Complete our Onboarding Survey and provide your profile info to to the director.
+\item
+  If you are paid by the university in any way, be sure to clarify your time reporting requirments with HR.
+\item
+  Join the lab's Discord.
+\item
+  Install the various software and sign up for the platforms we use in the lab:
+
+  \begin{enumerate}
+  \def\labelenumii{\arabic{enumii}.}
+  \tightlist
+  \item
+    Git and GitHub (or Git Kraken; follow the Git chapter instructions to get your free education upgrade. Request to join the lab's GitHub organization: \url{https://github.com/mavrxlab/}
+  \item
+    Create accounts for OSF, Protocols.io, and Clustermarket
+  \item
+    Install R and RStudio on your machine.
+  \item
+    Install Zotero.
+  \item
+    Sign up for your \href{https://adobe.arizona.edu/signup/adobe-creative-cloud}{Adobe Creative Cloud} access.
+  \end{enumerate}
+\item
+  \href{https://www.citiprogram.org/?pageID=668}{CITI Program training}
+
+  \begin{enumerate}
+  \def\labelenumii{\arabic{enumii}.}
+  \tightlist
+  \item
+    Select \texttt{Log\ In\ Through\ My\ Organization}, search for \texttt{University\ of\ Arizona}, sign in with your NetID.
+  \item
+    Find the \texttt{Group\ 2:\ Social\ \&\ Behavioral\ Research\ Investigators} course and complete it.
+  \item
+    Send a copy of your Completion Record to the director and copy your advisor.
+  \end{enumerate}
+\item
+\end{enumerate}
+
+\hypertarget{baseline-reading-list}{%
+\section{Baseline Reading List}\label{baseline-reading-list}}
+
+While the lab covers a wide, wide range of research topics, we have established a reading list to provide everyone with the same basic foundation of knowledge. The exact topics listed below may not apply to the precise topic you're interested in but you should still endeavor to read it all.\footnote{The ``Ten Simple Rules'' article list is gleaned from \href{https://github.com/gzahn/Lab_Manual\#09-reading-list}{gzahn/Lab\_Manual: Lab manual for Zahn Lab at UVU}.} This list is ever-growing and if you wish to add to it, simply create a pull request.
+
+These are meta-reads, basically, that focus on ``doing'' research and sharing the resultant knowledge.
+
+\begin{itemize}
+\tightlist
+\item
+  Bourne, P. E. (2007). Ten Simple Rules for Making Good Oral Presentations.\emph{PLoS Comput Biol, 3}(4), e77. \url{https://doi.org/10.1371/journal.pcbi.0030077}
+\item
+  Bourne, P. E., \& Chalupa, L. M. (2006). Ten Simple Rules for Getting Grants. \emph{PLoS Comput Biol, 2}(2), e12. \url{https://doi.org/10.1371/journal.pcbi.0020012}
+\item
+  Edmund Hart, Pauline Barmby, David LeBauer, François Michonneau, Sarah Mount, Patrick Mulrooney, \ldots{} Jeffrey W Hollister. (2016). Ten simple rules for digital data storage. \url{https://doi.org/10.7287/peerj.preprints.1448v2}
+\item
+  Erren, T. C., \& Bourne, P. E. (2007). Ten Simple Rules for a Good Poster Presentation. \emph{PLoS Comput Biol, 3}(5), e102. \url{https://doi.org/10.1371/journal.pcbi.0030102}
+\item
+  Kording, K. P., \& Mensh, B. (2016). Ten simple rules for structuring papers. BioRxiv, 088278. \url{https://doi.org/10.1101/088278}
+\item
+  Rougier, N. P., Droettboom, M., \& Bourne, P. E. (2014). Ten Simple Rules for Better Figures. \emph{PLOS Computational Biology, 10}(9), e1003833. \url{https://doi.org/10.1371/journal.pcbi.1003833}
+\item
+  Vicens, Q., \& Bourne, P. E. (2007). Ten Simple Rules for a Successful Collaboration. \emph{PLoS Comput Biol, 3}(3), e44. \url{https://doi.org/10.1371/journal.pcbi.0030044}
+\item
+  Weinberger, C. J., Evans, J. A., \& Allesina, S. (2015). Ten Simple (Empirical) Rules for Writing Science. \emph{PLoS Comput Biol, 11}(4), e1004205. \url{https://doi.org/10.1371/journal.pcbi.1004205}
+\end{itemize}
 
 \hypertarget{spaces}{%
 \chapter{Labs and Physical Spaces}\label{spaces}}
 
-The MA\{VR\}X Lab has two official physical spaces: room B158 on the University of Arizona Sierra Vista campus, and \_\_\_\_\_\_\_\_ on the University of Arizona Yuma campus.
+The MA\{VR\}X Lab has two official physical spaces: one on the Sierra Vista campus and one on the Yuma campus (contact Dr.~Saldana for information on this space).
 
 \hypertarget{sierra-vista}{%
 \section{Sierra Vista}\label{sierra-vista}}
 
-\begin{itemize}
-\tightlist
-\item
-  Map of campus
-\item
-  Hardware maintenance
-\item
-  Process to get keys and keypad entry
-\item
-  Cleaning
-\item
-  Important phone numbers and emails
-\end{itemize}
+The MA\{VR\}X Lab's main location is room B158 on the \href{https://azcast.arizona.edu/about}{University of Arizona Sierra Vista campus}\footnote{Formerly UA South, the college was established in 2019 by the Arizona Board of Regents.}. It is part of the \href{https://azcast.arizona.edu/locations}{College of Applied Science and Technology (CAST)}.
+
+\begin{figure}
+\centering
+\includegraphics{images/azcast_building.jpg}
+\caption{Sierra Vista campus}
+\end{figure}
+
+\begin{quote}
+\begin{quote}
+\begin{quote}
+1140 N. Colombo Avenue\\
+Sierra Vista, AZ 85635\\
+(520) 458-8278
+\end{quote}
+\end{quote}
+\end{quote}
+
+\hypertarget{hours}{%
+\subsection{Hours}\label{hours}}
+
+Generally speaking, the director is in the lab on Mondays. Given that the lab focuses on extended reality, much of the work can be done virtually unless the hardware in the room is specifically needed. Other hours throughout the week are determined by those employed by, volunteering, or researching in the lab.
 
 \hypertarget{yuma}{%
 \section{Yuma}\label{yuma}}
+
+(Info on the Yuma location coming soon!)
+
+\begin{figure}
+\centering
+\includegraphics{images/yuma_building.jpeg}
+\caption{Yuma campus}
+\end{figure}
+
+\begin{quote}
+\begin{quote}
+\begin{quote}
+7875 E. 24th St.~Ste. \#7\\
+Yuma, AZ 85365\\
+(928) 782-1914
+\end{quote}
+\end{quote}
+\end{quote}
 
 \hypertarget{other-locations}{%
 \section{Other Locations}\label{other-locations}}
@@ -286,7 +578,6 @@ The lab has its own email address: \texttt{MAVRX-Lab@arizona.edu} used for exter
 \section{Discord}\label{discord}}
 
 For virtually all lab-related chatting, announcements, and so on, we have a lab Discord server.
-\index{Discord}
 
 \hypertarget{social}{%
 \section{Social Media}\label{social}}
@@ -409,10 +700,10 @@ We deal with disparate technologies, fields, and methodologies. Having clear and
 
 Along with the \ref{openness} we strive for when disseminating work via the lab, open formats should also be used when possible.
 
-Documents: \href{https://www.markdownguide.org/cheat-sheet}{markdown} (\href{https://uoepsy.github.io/usmr/cheatsheet/rmarkdown-2.0.pdf}{Rmarkdown}) or RTF\\
-Audio: \href{https://xiph.org/flac/}{FLAC - Free Lossless Audio Codec} or \href{https://www.xiph.org/vorbis/}{OGG (Ogg Vorbis)}\\
-Images: \href{https://jpeg.org/jpeg2000/index.html}{JPEG-2000} or \href{https://www.adobe.com/creativecloud/file-types/image/raster/tiff-file.html}{TIFF}\\
-Video: \href{https://en.wikipedia.org/wiki/MPEG-4_Part_14}{MP4} or \href{https://en.wikipedia.org/wiki/Matroska}{MKV} (H.264 or H.265 encoded)
+\textbf{Documents}: \href{https://www.markdownguide.org/cheat-sheet}{markdown} (\href{https://uoepsy.github.io/usmr/cheatsheet/rmarkdown-2.0.pdf}{Rmarkdown}) or RTF\\
+\textbf{Audio}: \href{https://xiph.org/flac/}{FLAC - Free Lossless Audio Codec} or \href{https://www.xiph.org/vorbis/}{OGG (Ogg Vorbis)}\\
+\textbf{Images}: \href{https://jpeg.org/jpeg2000/index.html}{JPEG-2000} or \href{https://www.adobe.com/creativecloud/file-types/image/raster/tiff-file.html}{TIFF}\\
+\textbf{Video}: \href{https://en.wikipedia.org/wiki/MPEG-4_Part_14}{MP4} or \href{https://en.wikipedia.org/wiki/Matroska}{MKV} (H.264 or H.265 encoded)
 
 While the University of Arizona provides free access to the entire Adobe Creative Cloud to anyone in its ecosystem, which the lab primarily uses, we also encourage the knowledge and use of free, open source software (FOSS) as an optional alternative:
 
@@ -433,9 +724,7 @@ Projects should be housed in the lab's OSF project but the actual work done in t
 
 Having a well-written and organized \texttt{README} file in your repository is absolutely essential. To conform with \href{https://data.library.arizona.edu/data-management/best-practices/data-documentation-readme-metadata}{UA Research Data Repository Policies} (and to have a consistent organization), you should at least start with the \href{https://osf.io/sj8xv/}{README\_template.txt} they provide. You are also encouraged to maintain a step-by-step process that describes your project environment, how to run any cleaning scripts (if applicable), and how to reproduce the manuscript/slide deck/et cetera. The \href{https://github.com/softwaresaved/software_in_research_survey_2014/blob/1.0/README.md}{2014 Software in Research survey} readme is a good example of this.
 
-Likewise, when describing commits in GitHub or describing updates in OSF, please don't skimp. Commits are cheap and the next person that reads what you left will thank you.
-
-\emph{Protip}: use GitHub's \texttt{Release} function to keep track of substantive updates to a project by keeping track of release notes and next steps. This will also help spin up a new collaborator should someone join your project.
+Likewise, when describing commits in GitHub or describing updates in OSF, please don't skimp. Commits are cheap and the next person that reads what you left will thank you.\footnote{Use GitHub's \texttt{Release} function to keep track of substantive updates to a project by keeping track of release notes and next steps. This will also help spin up a new collaborator should someone join your project.}
 
 Note that you don't just have to be coding applications to use GitHub! Use it for slide decks, papers, websites, and all sorts of things (like this lab manual, for example!).
 
@@ -455,10 +744,12 @@ We believe in standardizing as much as we can in order for consistency and clari
   Plays well with default ordering
 \end{enumerate}
 
+You'll want to name your files like \texttt{YYYY\_MM\_DD-Project\_name-Sub\_identifier-Slug.ext} or some such\footnote{I prefer to use an underscore in place of a space and a dash as the separator of terms, concepts, and so on. This way allows you to Ctrl-Arrow through filenames and only stop at each portion rather than every word. -Dr S.}
+
 \hypertarget{lab-safety}{%
 \section{Lab Safety}\label{lab-safety}}
 
-As virtual reality has a tendency to cause diziness, motion sickness, and so on, the lab has a variety of health-related safety plans and protocols in place.
+As virtual reality has a tendency to cause dizziness, motion sickness, and so on, the lab has a variety of health-related safety plans and protocols in place.
 
 \hypertarget{motion-sickness}{%
 \subsection{Motion Sickness}\label{motion-sickness}}
@@ -480,12 +771,12 @@ Should someone become motion sick when in virtual reality, the following steps s
 
 Should someone vomit during VR: (see lab guidance in the room for now)
 
-There is always cold water available in the minifridge in the Sierra Vista lab and suckers are in one of the drawers by the cabinet.
+There is always cold water available in the minifridge in the Sierra Vista lab and suckers are in one of the drawers by the storage cabinet.
 
 \hypertarget{reserving-lab-equipment}{%
 \section{Reserving Lab Equipment}\label{reserving-lab-equipment}}
 
-Reserving or checking out lab equipment should be done via our online lab inventory management system, \href{https://www.clustermarket.com}{Bookkit by Clustermarket}. This system is invite-only, so let the director know if you don't have access. Lab assistants, researchers, et cetera, are free to use lab equipment without reserving it, presuming they aren't precluding a reservation. Please keep in mind that lab equipment does need to be sterilized and recharged between uses and equipment that \emph{is} checked out should be returned in the same fashion (with the exception of the rechargeable batteries; the lab will take care of those upon receipt).
+Reserving or checking out lab equipment should be done via our online lab inventory management system, \href{https://www.clustermarket.com}{Bookkit by Clustermarket}. This system is invite-only, so let the director know if you don't have access. Everyone needs to make a reservation in the system as a means for tracking what equipment is being used to what extent. Please keep in mind that lab equipment does need to be sterilized and recharged between uses and equipment that \emph{is} checked out should be returned in the same fashion (with the exception of the rechargeable batteries; the lab will take care of those upon receipt).
 
 \hypertarget{requesting-lab-services}{%
 \section{Requesting Lab Services}\label{requesting-lab-services}}
@@ -828,10 +1119,9 @@ You may not be familiar with GitHub. This is intended to provide guidance in thi
 
 (TBD)
 
-\printindex
-
 \bibliography{book.bib,packages.bib}
 
 
+\printindex
 
 \end{document}
