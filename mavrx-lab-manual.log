@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2022.1.2)  2 JAN 2022 16:26
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2022.1.2)  2 JAN 2022 20:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -791,57 +791,43 @@ This message occurred on input line 142.
 ]
 File: images/square-solid.jpg Graphic file (type bmp)
 <images/square-solid.jpg>
-LaTeX Font Info:    Trying to load font information for U+msa on input line 155.
-(c:/Users/RS/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 155.
-(c:/Users/RS/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-
-LaTeX Warning: Marginpar on page 11 moved.
-
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 159.
 
-
-Underfull \vbox (badness 1127) has occurred while \output is active []
-
 [11]
-Overfull \hbox (60.75pt too wide) in paragraph at lines 200--200
+Overfull \hbox (60.75pt too wide) in paragraph at lines 202--202
 []\TU/lmtt/m/n/10 ## [1] stats     graphics  grDevices utils     datasets  methods   base[] 
  []
 
 
-Overfull \hbox (50.25pt too wide) in paragraph at lines 200--200
+Overfull \hbox (50.25pt too wide) in paragraph at lines 202--202
 []\TU/lmtt/m/n/10 ##  [1] compiler_4.1.2  magrittr_2.0.1  fastmap_1.1.0   bookdown_0.24[] 
  []
 
 
-Overfull \hbox (34.5pt too wide) in paragraph at lines 200--200
+Overfull \hbox (34.5pt too wide) in paragraph at lines 202--202
 []\TU/lmtt/m/n/10 ##  [5] htmltools_0.5.2 tools_4.1.2     rstudioapi_0.13 yaml_2.2.1[] 
  []
 
 
-Overfull \hbox (50.25pt too wide) in paragraph at lines 200--200
+Overfull \hbox (50.25pt too wide) in paragraph at lines 202--202
 []\TU/lmtt/m/n/10 ##  [9] stringi_1.7.6   rmarkdown_2.11  knitr_1.37      stringr_1.4.0[] 
  []
 
 
-Overfull \hbox (50.25pt too wide) in paragraph at lines 200--200
+Overfull \hbox (50.25pt too wide) in paragraph at lines 202--202
 []\TU/lmtt/m/n/10 ## [13] digest_0.6.29   xfun_0.29       rlang_0.4.12    evaluate_0.14[] 
  []
 
 
 Class tufte-book Warning: Proper spacing of small-caps letters has not been set up.
-This message occurred on input line 207.
+This message occurred on input line 209.
 
 [12]
 
 Class tufte-book Warning: Proper spacing of small-caps letters has not been set up.
-This message occurred on input line 214.
+This message occurred on input line 216.
 
 [13] [14
 
@@ -849,19 +835,27 @@ This message occurred on input line 214.
 File: images/CAST_Mixed-Augmented-Virtual-Extended-Reality-Lab_SCRIPT_TEMPLATE_2018_PRIMARY.png Graphic file (type bmp)
 <images/CAST_Mixed-Augmented-Virtual-Extended-Reality-Lab_SCRIPT_TEMPLATE_2018_PRIMARY.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 222--223
+Underfull \hbox (badness 10000) in paragraph at lines 224--225
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 222--223
+Underfull \hbox (badness 10000) in paragraph at lines 224--225
 
  []
 
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 227.
+(hyperref)                be the same. Added a new anchor on input line 229.
 
+LaTeX Font Info:    Trying to load font information for U+msa on input line 234.
+(c:/Users/RS/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 234.
+(c:/Users/RS/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
 
 LaTeX Warning: Marginpar on page 15 moved.
 
@@ -871,7 +865,7 @@ LaTeX Warning: Marginpar on page 16 moved.
 
 
 Class tufte-book Warning: Proper spacing of small-caps letters has not been set up.
-This message occurred on input line 260.
+This message occurred on input line 262.
 
 [16]
 Chapter 1.
@@ -886,7 +880,7 @@ LaTeX Warning: Marginpar on page 17 moved.
 ]
 
 Class tufte-book Warning: Proper spacing of small-caps letters has not been set up.
-This message occurred on input line 339.
+This message occurred on input line 341.
 
 [18]
 
@@ -897,7 +891,7 @@ LaTeX Warning: Marginpar on page 19 moved.
 
 
 Class tufte-book Warning: Proper spacing of small-caps letters has not been set up.
-This message occurred on input line 393.
+This message occurred on input line 395.
 
 [19]
 
@@ -917,24 +911,24 @@ LaTeX Warning: Marginpar on page 20 moved.
 
 
 Class tufte-book Warning: Proper spacing of small-caps letters has not been set up.
-This message occurred on input line 437.
+This message occurred on input line 439.
 
 [20]
 
 Class tufte-book Warning: Proper spacing of small-caps letters has not been set up.
-This message occurred on input line 437.
+This message occurred on input line 439.
 
 [21] [22
 
 ]
 Chapter 2.
 
-Overfull \hbox (4.43001pt too wide) in paragraph at lines 474--476
+Overfull \hbox (4.43001pt too wide) in paragraph at lines 476--478
 []\TU/lmr/m/n/10 Select \TU/lmtt/m/n/10 Log In Through My Organization\TU/lmr/m/n/10 , search for \TU/lmtt/m/n/10 University 
  []
 
 
-Overfull \hbox (22.51001pt too wide) in paragraph at lines 476--478
+Overfull \hbox (22.51001pt too wide) in paragraph at lines 478--480
 []\TU/lmr/m/n/10 Find the \TU/lmtt/m/n/10 Group 2: Social & Behavioral Research Investigators 
  []
 
@@ -944,7 +938,7 @@ LaTeX Warning: Marginpar on page 24 moved.
 
 
 Class tufte-book Warning: Proper spacing of small-caps letters has not been set up.
-This message occurred on input line 511.
+This message occurred on input line 513.
 
 [24]
 Chapter 3.
@@ -960,7 +954,7 @@ File: images/yuma_building.jpeg Graphic file (type bmp)
 <images/yuma_building.jpeg>
 
 Class tufte-book Warning: Proper spacing of small-caps letters has not been set up.
-This message occurred on input line 568.
+This message occurred on input line 570.
 
 [26]
 Chapter 4.
@@ -974,16 +968,16 @@ Chapter 5.
 LaTeX Warning: Marginpar on page 29 moved.
 
 
-Overfull \hbox (14.68001pt too wide) in paragraph at lines 635--636
+Overfull \hbox (14.68001pt too wide) in paragraph at lines 637--638
 []\TU/lmr/m/n/10 meeting-notes[] repo, along with instructions on how to add/update/correct 
  []
 
 [29]
 LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <10> not available
-(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 671.
+(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 673.
 
 Class tufte-book Warning: Proper spacing of small-caps letters has not been set up.
-This message occurred on input line 691.
+This message occurred on input line 693.
 
 [30]
 Chapter 6.
@@ -994,7 +988,7 @@ Chapter 6.
 LaTeX Warning: Marginpar on page 32 moved.
 
 
-Overfull \hbox (100.16002pt too wide) in paragraph at lines 747--748
+Overfull \hbox (100.16002pt too wide) in paragraph at lines 749--750
 []\TU/lmr/m/n/10 You’ll want to name your files like \TU/lmtt/m/n/10 YYYY_MM_DD-Project_name-Sub_identifier-Slug.ext 
  []
 
@@ -1003,12 +997,12 @@ LaTeX Warning: Marginpar on page 32 moved.
 
 
 Class tufte-book Warning: Proper spacing of small-caps letters has not been set up.
-This message occurred on input line 780.
+This message occurred on input line 782.
 
 [32]
 
 Class tufte-book Warning: Proper spacing of small-caps letters has not been set up.
-This message occurred on input line 787.
+This message occurred on input line 789.
 
 [33] [34
 
@@ -1023,22 +1017,22 @@ File: images/icon_circle_FDP_text.png Graphic file (type bmp)
 [35]
 
 Class tufte-book Warning: Proper spacing of small-caps letters has not been set up.
-This message occurred on input line 868.
+This message occurred on input line 870.
 
 [36]
 
 Class tufte-book Warning: Proper spacing of small-caps letters has not been set up.
-This message occurred on input line 921.
+This message occurred on input line 923.
 
 [37]
 
 Class tufte-book Warning: Proper spacing of small-caps letters has not been set up.
-This message occurred on input line 971.
+This message occurred on input line 973.
 
 [38]
 
 Class tufte-book Warning: Proper spacing of small-caps letters has not been set up.
-This message occurred on input line 981.
+This message occurred on input line 983.
 
 [39] [40
 
@@ -1049,7 +1043,7 @@ Underfull \vbox (badness 1342) has occurred while \output is active []
 
 
 Class tufte-book Warning: Proper spacing of small-caps letters has not been set up.
-This message occurred on input line 1055.
+This message occurred on input line 1057.
 
 [42]
 
@@ -1063,7 +1057,7 @@ LaTeX Warning: Marginpar on page 43 moved.
 
 
 Class tufte-book Warning: Proper spacing of small-caps letters has not been set up.
-This message occurred on input line 1074.
+This message occurred on input line 1076.
 
 [43]
 
@@ -1076,18 +1070,18 @@ LaTeX Warning: Marginpar on page 44 moved.
 LaTeX Warning: Marginpar on page 44 moved.
 
 
-Overfull \hbox (17.82002pt too wide) in paragraph at lines 1102--1103
+Overfull \hbox (17.82002pt too wide) in paragraph at lines 1104--1105
 [][]\TU/lmr/m/n/10 OSF | Replication Recipe (Brandt et al., 2013) Pre-Registration.docx[]  
  []
 
 
 Class tufte-book Warning: Proper spacing of small-caps letters has not been set up.
-This message occurred on input line 1112.
+This message occurred on input line 1114.
 
 [44]
 
 Class tufte-book Warning: Proper spacing of small-caps letters has not been set up.
-This message occurred on input line 1116.
+This message occurred on input line 1118.
 
 [45] [46
 
@@ -1102,12 +1096,12 @@ Package rerunfilecheck Info: File `mavrx-lab-manual.out' has not changed.
 (rerunfilecheck)             Checksum: FE35458886CFF2010448099FF402A686;6829.
  ) 
 Here is how much of TeX's memory you used:
- 16971 strings out of 478256
- 324490 string characters out of 5854710
- 699930 words of memory out of 5000000
- 37139 multiletter control sequences out of 15000+600000
+ 16975 strings out of 478256
+ 324623 string characters out of 5854710
+ 700007 words of memory out of 5000000
+ 37143 multiletter control sequences out of 15000+600000
  411988 words of font info for 86 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 108i,11n,108p,908b,568s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 108i,12n,108p,908b,568s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on mavrx-lab-manual.pdf (49 pages).
