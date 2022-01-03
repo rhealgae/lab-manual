@@ -36,21 +36,23 @@ knitr::include_graphics('images/square-solid.jpg', dpi = NA)
 
 This manual was created using the **bookdown** package [@R-bookdown], which was built on top of R Markdown and **knitr** [@xie2015]. The PDF uses the Tufte package [@xieTufteTufteStyles2021].
 
-The contents of this manual are heavily influenced^[read: stolen, but with permission] by John Paul Minda and Emily Nielsen's *Lab Manual*  [-@Minda_Nielsen_2018].
+The contents of this manual are heavily influenced by John Paul Minda and Emily Nielsen's *Lab Manual*  [-@Minda_Nielsen_2018]. The full collection of influences and inspiration can be found [in the manual's GitHub repo](https://github.com/mavrxlab/lab-manual).
 
 ## Using this book {-}
 
-This manual is licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/). It is available as a PDF, eBook, or via the web. We encourage you to use the **OSF** project to cite this particular document. (Coming soon.)
+This manual is licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
 
 ```{r cc-license, fig.align='center', echo=FALSE, include=identical(knitr:::pandoc_to(), 'html'), fig.link='http://creativecommons.org/licenses/by-nc-sa/4.0/'}
 knitr::include_graphics('images/by-nc-sa.png', dpi = NA)
 ```
 
+It is available as a PDF, eBook, or via the web. We encourage you to use [the **OSF** project to cite this particular document](https://osf.io/upa25/) [@straightMAVRXLabManual2021].  
+
 ## Structure {-}
 
 This manual should be considered a comprehensive living document aimed at presenting a unified understanding of how the lab works and what it should become.
 
-<!-- Chapter listing goes here once the're set. -->
+<!-- Chapter listing goes here once they're set. -->
 
 ## Session Information {-}
 
@@ -65,7 +67,7 @@ sessionInfo()
 
 Many thanks to the people who supported the idea of the lab, have donated their blood, sweat, and tears to get it off the ground, to the colleagues and collaborators that make it work, to those that came before, and to those still to come.
 
-<p style='text-align: right;'>Dr. Ryan Straight<br />
-Assistant Professor of Practice in Applied Computing and Cyber Operations<br />
-Director, MA{VR}X Lab<br />
+<p style='text-align: right;'>Dr. Ryan Straight<br />\newline
+Assistant Professor of Practice in Applied Computing and Cyber Operations<br />\newline
+Director, MA{VR}X Lab<br />\newline
 Tucson, AZ</p>
