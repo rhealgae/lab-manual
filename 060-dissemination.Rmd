@@ -60,6 +60,10 @@ This is a list of conferences that those affiliated with the lab have attended, 
 
 (List of conferences goes here!)
 
+### Newsletter
+
+The lab also has a newsletter, `MetaMeta`, that goes out weekly. 
+
 ## Authorship {#authorship}
 
 To transparently and fairly maintain a record of contributions, the lab follows the [CRediT - Contributor Roles Taxonomy](https://casrai.org/credit/). These roles are as follows:
