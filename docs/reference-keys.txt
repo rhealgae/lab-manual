@@ -44,6 +44,7 @@ redata
 writing
 publishing
 conferences
+newsletter
 authorship
 contribution
 author-order

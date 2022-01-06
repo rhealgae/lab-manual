@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2022.1.2)  2 JAN 2022 20:28
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2022.1.2)  4 JAN 2022 20:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -764,7 +764,7 @@ This message occurred on input line 133.
 ] (./mavrx-lab-manual.toc [3]
 
 Class tufte-book Warning: Proper spacing of small-caps letters has not been set up.
-This message occurred on input line 64.
+This message occurred on input line 65.
 
 [4])
 \tf@toc=\write6
@@ -968,16 +968,19 @@ Chapter 5.
 LaTeX Warning: Marginpar on page 29 moved.
 
 
-Overfull \hbox (14.68001pt too wide) in paragraph at lines 637--638
+Overfull \hbox (14.68001pt too wide) in paragraph at lines 639--640
 []\TU/lmr/m/n/10 meeting-notes[] repo, along with instructions on how to add/update/correct 
  []
 
 [29]
 LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <10> not available
-(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 673.
+(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 675.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 
 Class tufte-book Warning: Proper spacing of small-caps letters has not been set up.
-This message occurred on input line 693.
+This message occurred on input line 695.
 
 [30]
 Chapter 6.
@@ -988,7 +991,7 @@ Chapter 6.
 LaTeX Warning: Marginpar on page 32 moved.
 
 
-Overfull \hbox (100.16002pt too wide) in paragraph at lines 749--750
+Overfull \hbox (100.16002pt too wide) in paragraph at lines 751--752
 []\TU/lmr/m/n/10 You’ll want to name your files like \TU/lmtt/m/n/10 YYYY_MM_DD-Project_name-Sub_identifier-Slug.ext 
  []
 
@@ -997,12 +1000,12 @@ LaTeX Warning: Marginpar on page 32 moved.
 
 
 Class tufte-book Warning: Proper spacing of small-caps letters has not been set up.
-This message occurred on input line 782.
+This message occurred on input line 784.
 
 [32]
 
 Class tufte-book Warning: Proper spacing of small-caps letters has not been set up.
-This message occurred on input line 789.
+This message occurred on input line 791.
 
 [33] [34
 
@@ -1017,22 +1020,22 @@ File: images/icon_circle_FDP_text.png Graphic file (type bmp)
 [35]
 
 Class tufte-book Warning: Proper spacing of small-caps letters has not been set up.
-This message occurred on input line 870.
+This message occurred on input line 872.
 
 [36]
 
 Class tufte-book Warning: Proper spacing of small-caps letters has not been set up.
-This message occurred on input line 923.
+This message occurred on input line 930.
 
 [37]
 
 Class tufte-book Warning: Proper spacing of small-caps letters has not been set up.
-This message occurred on input line 973.
+This message occurred on input line 978.
 
 [38]
 
 Class tufte-book Warning: Proper spacing of small-caps letters has not been set up.
-This message occurred on input line 983.
+This message occurred on input line 990.
 
 [39] [40
 
@@ -1043,7 +1046,7 @@ Underfull \vbox (badness 1342) has occurred while \output is active []
 
 
 Class tufte-book Warning: Proper spacing of small-caps letters has not been set up.
-This message occurred on input line 1057.
+This message occurred on input line 1064.
 
 [42]
 
@@ -1057,7 +1060,7 @@ LaTeX Warning: Marginpar on page 43 moved.
 
 
 Class tufte-book Warning: Proper spacing of small-caps letters has not been set up.
-This message occurred on input line 1076.
+This message occurred on input line 1083.
 
 [43]
 
@@ -1070,18 +1073,18 @@ LaTeX Warning: Marginpar on page 44 moved.
 LaTeX Warning: Marginpar on page 44 moved.
 
 
-Overfull \hbox (17.82002pt too wide) in paragraph at lines 1104--1105
+Overfull \hbox (17.82002pt too wide) in paragraph at lines 1111--1112
 [][]\TU/lmr/m/n/10 OSF | Replication Recipe (Brandt et al., 2013) Pre-Registration.docx[]  
  []
 
 
 Class tufte-book Warning: Proper spacing of small-caps letters has not been set up.
-This message occurred on input line 1114.
+This message occurred on input line 1121.
 
 [44]
 
 Class tufte-book Warning: Proper spacing of small-caps letters has not been set up.
-This message occurred on input line 1118.
+This message occurred on input line 1125.
 
 [45] [46
 
@@ -1096,10 +1099,10 @@ Package rerunfilecheck Info: File `mavrx-lab-manual.out' has not changed.
 (rerunfilecheck)             Checksum: FE35458886CFF2010448099FF402A686;6829.
  ) 
 Here is how much of TeX's memory you used:
- 16975 strings out of 478256
- 324623 string characters out of 5854710
- 700007 words of memory out of 5000000
- 37143 multiletter control sequences out of 15000+600000
+ 16976 strings out of 478256
+ 324635 string characters out of 5854710
+ 700052 words of memory out of 5000000
+ 37144 multiletter control sequences out of 15000+600000
  411988 words of font info for 86 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  108i,12n,108p,908b,568s stack positions out of 5000i,500n,10000p,200000b,80000s
